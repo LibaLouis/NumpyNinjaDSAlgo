@@ -15,7 +15,7 @@ public class RegisterPageSteps {
 	
 	RegisterPage regPg=new RegisterPage();
 
-	// @TS_register_02
+	// @register1
 	@Given("The user opens Register Page")
 	public void the_user_opens_register_page() {
 		
@@ -35,7 +35,7 @@ public class RegisterPageSteps {
 	   LoggerLoad.info("Error Message dispalys below Username textbox");
 	}
 
-	// @TS_register_03
+	// @register3
 	@When("The user clicks {string} button after entering username with other fields empty")
 	public void the_user_clicks_button_after_entering_username_with_other_fields_empty(String string, DataTable dataTable) {
 	    regPg.userNameData(dataTable);
@@ -50,7 +50,7 @@ public class RegisterPageSteps {
 	}
 
 
-	// @TS_register_04
+	// @register4
 	@When("The user clicks {string} button after entering {string} and {string} with Password Confirmation field empty")
 	public void the_user_clicks_button_after_entering_and_with_password_confirmation_field_empty(String string, String string2, String string3,DataTable dataTable) {
 	    regPg.userNameData(dataTable);
@@ -66,7 +66,7 @@ public class RegisterPageSteps {
 	    LoggerLoad.info("Error Message dispalys below Password textbox");
 	}
 
-	// @TS_register_05
+	// @register5
 
 	@When("The user enters a {string} with characters other than Letters, digits and @, ., +, -, _ with valid {string} and {string}")
 	public void the_user_enters_a_with_characters_other_than_letters_digits_and_with_valid_and(String string, String string2, String string3, io.cucumber.datatable.DataTable dataTable) {
@@ -93,7 +93,7 @@ public class RegisterPageSteps {
 		
 	}
 
-	// @TS_register_06
+	// @register6
 	@When("The user clicks {string} button after entering valid {string} and different passwords in {string} and {string} fields")
 	public void the_user_clicks_button_after_entering_valid_and_different_passwords_in_and_fields(String string, String string2, String string3, String string4,DataTable dataTable) {
 		regPg.userNameData(dataTable);
@@ -103,7 +103,7 @@ public class RegisterPageSteps {
 	    LoggerLoad.info("User Enters valid username and password from datatable and clicks on Registration Button");
 	}
 	
-	//@TS_register_07
+	//@register7
 	@When("The user enters a valid {string} and {string} with characters less than eight")
 	public void the_user_enters_a_valid_and_with_characters_less_than(String string, String string2,DataTable dataTable) {
 		regPg.userNameData(dataTable);
@@ -112,7 +112,7 @@ public class RegisterPageSteps {
 	    regPg.clickRegButton();
 	    LoggerLoad.info("User Enters valid username and less characters password from datatable and clicks on Registration Button");
 	}
-	//@TS_register_08
+	//@register8
 	@When("The user enters a valid {string} and {string} with only numbers")
 	public void the_user_enters_a_valid_and_with_only_numbers(String string, String string2,DataTable dataTable) {
 		regPg.userNameData(dataTable);
@@ -121,7 +121,7 @@ public class RegisterPageSteps {
 	    regPg.clickRegButton();
 	    LoggerLoad.info("User Enters data from datatable and clicks on Registration Button");
 	}
-	//@TS_register_09
+	//@register9
 	@When("The user enters a valid {string} and {string} similar to username")
 	public void the_user_enters_a_valid_and_similar_to_username(String string, String string2,DataTable dataTable) {
 		regPg.userNameData(dataTable);
@@ -131,7 +131,7 @@ public class RegisterPageSteps {
 	    LoggerLoad.info("User Enters data from datatable and clicks on Registration Button");
 	}
 	
-	//TS_register_10
+	//@register10
 
 	@When("The user enters a valid {string} and commonly used password {string}")
 	public void the_user_enters_a_valid_and_commonly_used_password(String string, String string2,DataTable dataTable) {
@@ -141,7 +141,7 @@ public class RegisterPageSteps {
 	    regPg.clickRegButton();
 	    LoggerLoad.info("User Enters data from datatable and clicks on Registration Button");
 	}
-	//TS_register_11
+	//@register11
 	@When("The user enters a valid {string} and {string} and {string}")
 	public void the_user_enters_a_valid_and_and(String string, String string2, String string3,DataTable dataTable) {
 		regPg.userNameData(dataTable);
@@ -165,7 +165,7 @@ public class RegisterPageSteps {
 	    LoggerLoad.info("User redirected to Homepage with the message - New Account Created. You are logged in as your username");
 	}
 	
-	//TS_register_12
+	//@register12
 	@When("The user enters a valid existing {string} with {string} and {string}")
 	public void the_user_enters_a_valid_existing_with_and(String string, String string2, String string3,DataTable dataTable) {
 		regPg.userNameData(dataTable);
