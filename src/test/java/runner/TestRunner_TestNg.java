@@ -12,8 +12,8 @@ plugin={"pretty",
 		"io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm",
 		"html:test-output/cucumber-reports/dsalgo.html","json:target/jsonReports/report.json",
 		"html:test-output/jsonReports/report2.json","junit:target/jsonReports/report1.json",
-		"timeline:test-output-thread/"},
-tags= "@register"
+		"timeline:test-output-thread/"}
+//tags= "@register"
 		)
 
 public class TestRunner_TestNg extends AbstractTestNGCucumberTests{
