@@ -8,13 +8,13 @@ import static org.testng.Assert.assertEquals;
 
 import pageobjects.HomePage;
 import utilities.LoggerLoad;
-import utilities.configReader;
+import utilities.ConfigReader;
 
 public class HomePageSteps {
 
 	HomePage home= new HomePage();
-	String registerurl=configReader.getRegisterPageUrl();
-	String loginurl=configReader.getLoginPageUrl();
+	String registerurl=ConfigReader.getRegisterPageUrl();
+	String loginurl=ConfigReader.getLoginPageUrl();
 	
 	// User launch DsAlgo page
 	@Given("The user opens DS Algo portal link")
