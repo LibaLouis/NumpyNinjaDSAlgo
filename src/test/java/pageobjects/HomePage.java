@@ -5,14 +5,14 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-import utilities.configReader;
+import utilities.ConfigReader;
 import hooks.DriverManager;
 
 public class HomePage {
 	
 	public static WebDriver driver=DriverManager.getdriver();
-	String URL=configReader.getApplicationUrl();
-	String home=configReader.getHomePageUrl();
+	String URL=ConfigReader.getApplicationUrl();
+	String home=ConfigReader.getHomePageUrl();
 	
 	
 	//webelements for modules

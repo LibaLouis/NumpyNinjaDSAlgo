@@ -9,14 +9,14 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 
-import utilities.configReader;
+import utilities.ConfigReader;
 import hooks.DriverManager;
 import io.cucumber.datatable.DataTable;
 //import pages.String;
 
 public class RegisterPage {
 	public static WebDriver driver=DriverManager.getdriver();
-	String registerurl=configReader.getRegisterPageUrl();
+	String registerurl=ConfigReader.getRegisterPageUrl();
 	
 	//Webelements for register page
 	@FindBy (xpath="//input[@id='id_username']") WebElement usrname;

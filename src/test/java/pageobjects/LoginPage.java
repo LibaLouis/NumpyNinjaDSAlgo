@@ -6,7 +6,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 //import org.testng.Assert;
 
-import utilities.configReader;
+import utilities.ConfigReader;
 import hooks.DriverManager;
 
 
@@ -14,8 +14,8 @@ import hooks.DriverManager;
 public class LoginPage {
 	
 	public static WebDriver driver=DriverManager.getdriver();
-	String loginurl=configReader.getLoginPageUrl();
-	String loginhome=configReader.getHomePageUrl();
+	String loginurl=ConfigReader.getLoginPageUrl();
+	String loginhome=ConfigReader.getHomePageUrl();
 	
 	@FindBy (xpath="//input[@id='id_username']") WebElement username;
 	@FindBy(xpath="//input[@id='id_password']")WebElement password;
