@@ -17,7 +17,7 @@ public class LoginSteps {
 	
 	
 
-	//@TS_signin_01
+	//@signin1
 	@Given("The user is on signin page")
 	public void the_user_is_on_signin_page() {
 		loginPage.gotoLoginPage();
@@ -32,7 +32,7 @@ public class LoginSteps {
 	}
 
 	
-	//@TS_signin_02
+	//@signin2
 	@When("The user clicks Login with username {string} and empty password {string}")
 	public void the_user_clicks_login_with_username_and_empty_password(String string, String string2) {
 		loginPage.signIn(string, string2);
@@ -40,7 +40,7 @@ public class LoginSteps {
 	    LoggerLoad.info("User clicks Login with valid username and empty password ");
 	}
 	
-//@TS_signin_03
+//@signin3
 	@When("The user clicks Login with invalid username {string} and invalid password {string}")
 	public void the_user_clicks_login_with_invalid_username_and_invalid_password(String string, String string2) {
 		loginPage.signIn(string, string2);
@@ -55,7 +55,7 @@ public class LoginSteps {
 			LoggerLoad.info("It displays an error message");			
 	}
 	
-	//@TS_signin_04
+	//@signin4
 	@When("The user clicks Login with valid username {string} and invalid password {string}")
 	public void the_user_clicks_login_with_valid_username_and_invalid_password(String string, String string2) {
 		loginPage.signIn(string, string2);
@@ -68,7 +68,7 @@ public class LoginSteps {
 			Assert.assertNotEquals(loginPage.invalidMessage(), string);
 	}
 
-	//@TS_signin_05
+	//@signin5
 	@When("The user clicks Login with valid username  {string} and valid password {string}")
 	public void the_user_clicks_login_with_valid_username_and_valid_password(String string, String string2) {
 		loginPage.signIn(string, string2);
