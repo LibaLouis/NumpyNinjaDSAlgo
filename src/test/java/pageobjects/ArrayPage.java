@@ -10,7 +10,7 @@ import org.openqa.selenium.support.PageFactory;
 
 import utilities.AppUtils;
 import utilities.LoggerLoad;
-import utilities.configReader;
+import utilities.ConfigReader;
 import hooks.DriverManager;
 
 public class ArrayPage {
@@ -72,7 +72,7 @@ public class ArrayPage {
 	}
 
 	public void getUrlOf(String pagename) {
-		String urlName = configReader.getUrl(pagename);
+		String urlName = ConfigReader.getUrl(pagename);
 		driver.get(urlName);
 	}
 
@@ -150,7 +150,7 @@ public class ArrayPage {
 	}
 	
 	public void navigateTo(String pagename) {
-		String urlName = configReader.getUrl(pagename);
+		String urlName = ConfigReader.getUrl(pagename);
 		driver.get(urlName);
 	}
 }

@@ -6,7 +6,7 @@ import static org.testng.Assert.assertNotEquals;
 import pageobjects.LinkedListPage;
 import pageobjects.GenericPage;
 import utilities.LoggerLoad;
-import utilities.configReader;
+import utilities.ConfigReader;
 //import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -14,7 +14,7 @@ import io.cucumber.java.en.When;
 public class LinkedListSteps {
 	
 	LinkedListPage link=new LinkedListPage();
-	String Excelpath = configReader.getExcelFilePath();
+	String Excelpath = ConfigReader.getExcelFilePath();
 	static String expectedMsg;
     
 	GenericPage commonActions = new GenericPage();
