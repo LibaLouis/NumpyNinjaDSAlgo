@@ -63,3 +63,133 @@
 [INFO ]2024-02-1513:46:06.408[main]utilities.LoggerLoad1)-It should display an error message as Username already exists
 [ERROR]2024-02-1513:46:06.439[main]utilities.LoggerLoad1)-Steps Failed , Taking Screenshot
 [INFO ]2024-02-1513:46:06.624[main]utilities.LoggerLoad1)-Closing Driver
+[INFO ]2024-02-1514:12:21.968[main]utilities.LoggerLoad1)-Loading Config file
+[INFO ]2024-02-1514:12:23.297[main]utilities.LoggerLoad1)-Testing on chrome
+[INFO ]2024-02-1514:12:23.433[main]utilities.LoggerLoad1)-Initializing driver for : chrome
+[INFO ]2024-02-1514:12:23.691[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1514:12:23.691[main]utilities.LoggerLoad1)-[@register, @register1] : User launch home page of an dsalgo project
+[INFO ]2024-02-1514:12:23.691[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1514:12:24.277[main]utilities.LoggerLoad1)-User opens DS Algo portal link
+[INFO ]2024-02-1514:12:24.596[main]utilities.LoggerLoad1)-User clicks on Get Started button
+[INFO ]2024-02-1514:12:24.609[main]utilities.LoggerLoad1)-User is redirected to homepage
+[INFO ]2024-02-1514:12:24.677[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1514:12:24.677[main]utilities.LoggerLoad1)-[@register, @register2] : The user gets error message for empty fields into Username textbox
+[INFO ]2024-02-1514:12:24.677[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1514:12:24.864[main]utilities.LoggerLoad1)-User clicks on Registration Button
+[INFO ]2024-02-1514:12:24.884[main]utilities.LoggerLoad1)-Error Message dispalys below Username textbox
+[INFO ]2024-02-1514:12:24.902[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1514:12:24.903[main]utilities.LoggerLoad1)-[@register, @register3] : The user gets error message for empty fields into Password textbox
+[INFO ]2024-02-1514:12:24.904[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1514:12:25.126[main]utilities.LoggerLoad1)-User Enters data from datatable and clicks on Registration Button
+[INFO ]2024-02-1514:12:25.147[main]utilities.LoggerLoad1)-Error Message dispalys below Password textbox
+[INFO ]2024-02-1514:12:25.173[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1514:12:25.173[main]utilities.LoggerLoad1)-[@register, @register4] : The user gets error message for empty fields into confirm Password textbox
+[INFO ]2024-02-1514:12:25.173[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1514:12:25.438[main]utilities.LoggerLoad1)-User Enters data from datatable and clicks on Registration Button
+[INFO ]2024-02-1514:12:25.454[main]utilities.LoggerLoad1)-Error Message dispalys below Password textbox
+[INFO ]2024-02-1514:12:25.472[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1514:12:25.473[main]utilities.LoggerLoad1)-[@register, @register5] : The user gets error message for invalid username
+[INFO ]2024-02-1514:12:25.473[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1514:12:25.901[main]utilities.LoggerLoad1)-User Enters data from datatable and clicks on Registration Button
+[INFO ]2024-02-1514:12:25.931[main]utilities.LoggerLoad1)-It displays and Error Message
+[INFO ]2024-02-1514:12:25.941[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1514:12:25.941[main]utilities.LoggerLoad1)-[@register, @register6] : The user gets error message for password mismatch
+[INFO ]2024-02-1514:12:25.942[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1514:12:26.427[main]utilities.LoggerLoad1)-User Enters valid username and password from datatable and clicks on Registration Button
+[INFO ]2024-02-1514:12:26.443[main]utilities.LoggerLoad1)-It displays and Error Message
+[INFO ]2024-02-1514:12:26.452[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1514:12:26.452[main]utilities.LoggerLoad1)-[@register, @register7] : The user gets error message for password with characters less than eight
+[INFO ]2024-02-1514:12:26.452[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1514:12:26.862[main]utilities.LoggerLoad1)-User Enters valid username and less characters password from datatable and clicks on Registration Button
+[INFO ]2024-02-1514:12:26.909[main]utilities.LoggerLoad1)-It displays and Error Message
+[INFO ]2024-02-1514:12:26.921[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1514:12:26.921[main]utilities.LoggerLoad1)-[@register, @register8] : The user gets error message for password with only numbers
+[INFO ]2024-02-1514:12:26.921[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1514:12:27.337[main]utilities.LoggerLoad1)-User Enters data from datatable and clicks on Registration Button
+[INFO ]2024-02-1514:12:27.388[main]utilities.LoggerLoad1)-It displays and Error Message
+[INFO ]2024-02-1514:12:27.398[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1514:12:27.398[main]utilities.LoggerLoad1)-[@register, @register9] : The user gets error message for password too similar to your other personal information
+[INFO ]2024-02-1514:12:27.398[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1514:12:27.885[main]utilities.LoggerLoad1)-User Enters data from datatable and clicks on Registration Button
+[INFO ]2024-02-1514:12:27.909[main]utilities.LoggerLoad1)-It displays and Error Message
+[INFO ]2024-02-1514:12:27.919[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1514:12:27.919[main]utilities.LoggerLoad1)-[@register, @register10] : The user gets error message for commonly used password
+[INFO ]2024-02-1514:12:27.919[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1514:12:28.351[main]utilities.LoggerLoad1)-User Enters data from datatable and clicks on Registration Button
+[INFO ]2024-02-1514:12:28.371[main]utilities.LoggerLoad1)-It displays and Error Message
+[INFO ]2024-02-1514:12:28.380[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1514:12:28.380[main]utilities.LoggerLoad1)-[@register, @register11] : The user redirected to Homepage with valid details
+[INFO ]2024-02-1514:12:28.380[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1514:12:28.817[main]utilities.LoggerLoad1)-User Enters data from datatable and clicks on Registration Button
+[INFO ]2024-02-1514:12:28.862[main]utilities.LoggerLoad1)-User redirected to Homepage with the message - New Account Created. You are logged in as your username
+[INFO ]2024-02-1514:12:28.872[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1514:12:28.872[main]utilities.LoggerLoad1)-[@register, @register12] : The user gets error message for existing username
+[INFO ]2024-02-1514:12:28.872[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1514:12:29.312[main]utilities.LoggerLoad1)-It should display an error message as Username already exists
+[ERROR]2024-02-1514:12:29.343[main]utilities.LoggerLoad1)-Steps Failed , Taking Screenshot
+[INFO ]2024-02-1514:12:29.519[main]utilities.LoggerLoad1)-Closing Driver
+[INFO ]2024-02-1514:13:55.953[main]utilities.LoggerLoad1)-Loading Config file
+[INFO ]2024-02-1514:13:57.252[main]utilities.LoggerLoad1)-Testing on chrome
+[INFO ]2024-02-1514:13:57.388[main]utilities.LoggerLoad1)-Initializing driver for : chrome
+[INFO ]2024-02-1514:13:57.629[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1514:13:57.629[main]utilities.LoggerLoad1)-[@register, @register1] : User launch home page of an dsalgo project
+[INFO ]2024-02-1514:13:57.629[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1514:13:58.231[main]utilities.LoggerLoad1)-User opens DS Algo portal link
+[INFO ]2024-02-1514:13:58.558[main]utilities.LoggerLoad1)-User clicks on Get Started button
+[INFO ]2024-02-1514:13:58.572[main]utilities.LoggerLoad1)-User is redirected to homepage
+[INFO ]2024-02-1514:13:58.643[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1514:13:58.643[main]utilities.LoggerLoad1)-[@register, @register2] : The user gets error message for empty fields into Username textbox
+[INFO ]2024-02-1514:13:58.643[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1514:13:58.843[main]utilities.LoggerLoad1)-User clicks on Registration Button
+[INFO ]2024-02-1514:13:58.868[main]utilities.LoggerLoad1)-Error Message dispalys below Username textbox
+[INFO ]2024-02-1514:13:58.891[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1514:13:58.891[main]utilities.LoggerLoad1)-[@register, @register3] : The user gets error message for empty fields into Password textbox
+[INFO ]2024-02-1514:13:58.891[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1514:13:59.109[main]utilities.LoggerLoad1)-User Enters data from datatable and clicks on Registration Button
+[INFO ]2024-02-1514:13:59.134[main]utilities.LoggerLoad1)-Error Message dispalys below Password textbox
+[INFO ]2024-02-1514:13:59.156[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1514:13:59.156[main]utilities.LoggerLoad1)-[@register, @register4] : The user gets error message for empty fields into confirm Password textbox
+[INFO ]2024-02-1514:13:59.156[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1514:13:59.425[main]utilities.LoggerLoad1)-User Enters data from datatable and clicks on Registration Button
+[INFO ]2024-02-1514:13:59.443[main]utilities.LoggerLoad1)-Error Message dispalys below Password textbox
+[INFO ]2024-02-1514:13:59.463[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1514:13:59.463[main]utilities.LoggerLoad1)-[@register, @register5] : The user gets error message for invalid username
+[INFO ]2024-02-1514:13:59.463[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1514:13:59.897[main]utilities.LoggerLoad1)-User Enters data from datatable and clicks on Registration Button
+[INFO ]2024-02-1514:13:59.925[main]utilities.LoggerLoad1)-It displays and Error Message
+[INFO ]2024-02-1514:13:59.936[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1514:13:59.937[main]utilities.LoggerLoad1)-[@register, @register6] : The user gets error message for password mismatch
+[INFO ]2024-02-1514:13:59.937[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1514:14:00.374[main]utilities.LoggerLoad1)-User Enters valid username and password from datatable and clicks on Registration Button
+[INFO ]2024-02-1514:14:00.391[main]utilities.LoggerLoad1)-It displays and Error Message
+[INFO ]2024-02-1514:14:00.402[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1514:14:00.402[main]utilities.LoggerLoad1)-[@register, @register7] : The user gets error message for password with characters less than eight
+[INFO ]2024-02-1514:14:00.402[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1514:14:00.812[main]utilities.LoggerLoad1)-User Enters valid username and less characters password from datatable and clicks on Registration Button
+[INFO ]2024-02-1514:14:00.855[main]utilities.LoggerLoad1)-It displays and Error Message
+[INFO ]2024-02-1514:14:00.865[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1514:14:00.865[main]utilities.LoggerLoad1)-[@register, @register8] : The user gets error message for password with only numbers
+[INFO ]2024-02-1514:14:00.865[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1514:14:01.293[main]utilities.LoggerLoad1)-User Enters data from datatable and clicks on Registration Button
+[INFO ]2024-02-1514:14:01.340[main]utilities.LoggerLoad1)-It displays and Error Message
+[INFO ]2024-02-1514:14:01.350[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1514:14:01.350[main]utilities.LoggerLoad1)-[@register, @register9] : The user gets error message for password too similar to your other personal information
+[INFO ]2024-02-1514:14:01.350[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1514:14:01.801[main]utilities.LoggerLoad1)-User Enters data from datatable and clicks on Registration Button
+[INFO ]2024-02-1514:14:01.824[main]utilities.LoggerLoad1)-It displays and Error Message
+[INFO ]2024-02-1514:14:01.836[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1514:14:01.836[main]utilities.LoggerLoad1)-[@register, @register10] : The user gets error message for commonly used password
+[INFO ]2024-02-1514:14:01.836[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1514:14:02.286[main]utilities.LoggerLoad1)-User Enters data from datatable and clicks on Registration Button
+[INFO ]2024-02-1514:14:02.310[main]utilities.LoggerLoad1)-It displays and Error Message
+[INFO ]2024-02-1514:14:02.318[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1514:14:02.318[main]utilities.LoggerLoad1)-[@register, @register11] : The user redirected to Homepage with valid details
+[INFO ]2024-02-1514:14:02.318[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1514:14:02.730[main]utilities.LoggerLoad1)-User Enters data from datatable and clicks on Registration Button
+[INFO ]2024-02-1514:14:02.794[main]utilities.LoggerLoad1)-User redirected to Homepage with the message - New Account Created. You are logged in as your username
+[INFO ]2024-02-1514:14:02.805[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1514:14:02.805[main]utilities.LoggerLoad1)-[@register, @register12] : The user gets error message for existing username
+[INFO ]2024-02-1514:14:02.805[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1514:14:03.242[main]utilities.LoggerLoad1)-It should display an error message as Username already exists
+[ERROR]2024-02-1514:14:03.276[main]utilities.LoggerLoad1)-Steps Failed , Taking Screenshot
+[INFO ]2024-02-1514:14:03.456[main]utilities.LoggerLoad1)-Closing Driver
