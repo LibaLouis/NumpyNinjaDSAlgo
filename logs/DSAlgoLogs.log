@@ -193,3 +193,1183 @@
 [INFO ]2024-02-1514:14:03.242[main]utilities.LoggerLoad1)-It should display an error message as Username already exists
 [ERROR]2024-02-1514:14:03.276[main]utilities.LoggerLoad1)-Steps Failed , Taking Screenshot
 [INFO ]2024-02-1514:14:03.456[main]utilities.LoggerLoad1)-Closing Driver
+[INFO ]2024-02-1613:36:13.788[main]utilities.LoggerLoad1)-Loading Config file
+[INFO ]2024-02-1613:36:15.472[main]utilities.LoggerLoad1)-Testing on chrome
+[INFO ]2024-02-1613:36:15.601[main]utilities.LoggerLoad1)-Initializing driver for : chrome
+[INFO ]2024-02-1613:36:15.784[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:36:15.784[main]utilities.LoggerLoad1)-[@Array, @Array1] : The user is logged in to DS Algo portal
+[INFO ]2024-02-1613:36:15.785[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:36:15.811[main]utilities.LoggerLoad1)-The user is on Signin page of DS Algo portal
+[INFO ]2024-02-1613:36:16.493[main]utilities.LoggerLoad1)-User enters Username and Password
+[INFO ]2024-02-1613:36:16.495[main]utilities.LoggerLoad1)-User clicks on login button
+[INFO ]2024-02-1613:36:16.926[main]utilities.LoggerLoad1)-Title of current page isNumpyNinja
+[INFO ]2024-02-1613:36:17.008[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:36:17.008[main]utilities.LoggerLoad1)-[@Array, @Array2] : Navigating to Array page
+[INFO ]2024-02-1613:36:17.008[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:36:17.140[main]utilities.LoggerLoad1)-The user is on the home page after logged in
+[INFO ]2024-02-1613:36:17.531[main]utilities.LoggerLoad1)-User is in Arrays Module
+[INFO ]2024-02-1613:36:17.561[main]utilities.LoggerLoad1)-Title of current page is : Array
+[INFO ]2024-02-1613:36:17.603[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:36:17.603[main]utilities.LoggerLoad1)-[@Array, @Array3] : Navigating Arrays in Python page
+[INFO ]2024-02-1613:36:17.604[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:36:17.739[main]utilities.LoggerLoad1)-The user is in Array
+[INFO ]2024-02-1613:36:18.389[main]utilities.LoggerLoad1)-User clicks on Arrays in Python Link
+[INFO ]2024-02-1613:36:18.534[main]utilities.LoggerLoad1)-The user is redirected to Arrays in Python
+[INFO ]2024-02-1613:36:19.474[main]utilities.LoggerLoad1)-User clicks on try here button
+[INFO ]2024-02-1613:36:19.811[main]utilities.LoggerLoad1)-The user is redirected to Try Editor
+[INFO ]2024-02-1613:36:19.865[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:36:19.866[main]utilities.LoggerLoad1)-[@Array, @Array4] : The user is able to run code in Editor for Array page
+[INFO ]2024-02-1613:36:19.866[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:36:19.871[main]utilities.LoggerLoad1)-The user is in a page having an tryEditor with a Run button to test
+[INFO ]2024-02-1613:36:20.180[main]utilities.LoggerLoad1)-Title of current page is : Assessment
+[INFO ]2024-02-1613:36:20.183[main]utilities.LoggerLoad1)-The user enter valid python code in tryEditor from sheetname :pythonCode and row number : 0
+[INFO ]2024-02-1613:36:21.712[main]utilities.LoggerLoad1)-Expected result from Excel sheetname pythonCode and 0 : Hello
+[INFO ]2024-02-1613:36:21.778[main]utilities.LoggerLoad1)-User clicks on Run button
+[INFO ]2024-02-1613:36:21.875[main]utilities.LoggerLoad1)-Actual result  : Hello
+[INFO ]2024-02-1613:36:21.907[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:36:21.907[main]utilities.LoggerLoad1)-[@Array, @Array5] : The user is presented with error message for invalid code in Editor for Array page
+[INFO ]2024-02-1613:36:21.907[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:36:21.907[main]utilities.LoggerLoad1)-The user is in a page having an tryEditor with a Run button to test
+[INFO ]2024-02-1613:36:22.203[main]utilities.LoggerLoad1)-Title of current page is : Assessment
+[INFO ]2024-02-1613:36:22.206[main]utilities.LoggerLoad1)-The user enter python code with invalid syntax in tryEditor from sheetname :pythonCode and row number : 1
+[INFO ]2024-02-1613:36:22.465[main]utilities.LoggerLoad1)-User clicks on Run button
+[INFO ]2024-02-1613:36:22.484[main]utilities.LoggerLoad1)-Actual Error message is  : NameError: name 'String' is not defined on line 1
+[INFO ]2024-02-1613:36:22.513[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:36:22.514[main]utilities.LoggerLoad1)-[@Array, @Array6] : Navigating Arrays Using List page
+[INFO ]2024-02-1613:36:22.514[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:36:22.734[main]utilities.LoggerLoad1)-The user is in Array
+[INFO ]2024-02-1613:36:23.083[main]utilities.LoggerLoad1)-User clicks on Arrays Using List Link
+[INFO ]2024-02-1613:36:23.219[main]utilities.LoggerLoad1)-The user is redirected to Arrays Using List
+[INFO ]2024-02-1613:36:23.603[main]utilities.LoggerLoad1)-User clicks on try here button
+[INFO ]2024-02-1613:36:23.910[main]utilities.LoggerLoad1)-The user is redirected to Try Editor
+[INFO ]2024-02-1613:36:23.942[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:36:23.942[main]utilities.LoggerLoad1)-[@Array, @Array7] : The user is able to run code in Editor for Array page
+[INFO ]2024-02-1613:36:23.959[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:36:23.967[main]utilities.LoggerLoad1)-The user is in a page having an tryEditor with a Run button to test
+[INFO ]2024-02-1613:36:24.305[main]utilities.LoggerLoad1)-Title of current page is : Assessment
+[INFO ]2024-02-1613:36:24.311[main]utilities.LoggerLoad1)-The user enter valid python code in tryEditor from sheetname :pythonCode and row number : 0
+[INFO ]2024-02-1613:36:24.757[main]utilities.LoggerLoad1)-Expected result from Excel sheetname pythonCode and 0 : Hello
+[INFO ]2024-02-1613:36:24.859[main]utilities.LoggerLoad1)-User clicks on Run button
+[INFO ]2024-02-1613:36:24.879[main]utilities.LoggerLoad1)-Actual result  : Hello
+[INFO ]2024-02-1613:36:24.912[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:36:24.912[main]utilities.LoggerLoad1)-[@Array, @Array8] : The user is presented with error message for invalid code in Editor for Array page
+[INFO ]2024-02-1613:36:24.912[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:36:24.912[main]utilities.LoggerLoad1)-The user is in a page having an tryEditor with a Run button to test
+[INFO ]2024-02-1613:36:25.261[main]utilities.LoggerLoad1)-Title of current page is : Assessment
+[INFO ]2024-02-1613:36:25.266[main]utilities.LoggerLoad1)-The user enter python code with invalid syntax in tryEditor from sheetname :pythonCode and row number : 1
+[INFO ]2024-02-1613:36:25.639[main]utilities.LoggerLoad1)-User clicks on Run button
+[INFO ]2024-02-1613:36:25.652[main]utilities.LoggerLoad1)-Actual Error message is  : NameError: name 'String' is not defined on line 1
+[INFO ]2024-02-1613:36:25.664[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:36:25.664[main]utilities.LoggerLoad1)-[@Array, @Array9] : Navigating Basic Operations in Lists page
+[INFO ]2024-02-1613:36:25.664[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:36:25.883[main]utilities.LoggerLoad1)-The user is in Array
+[INFO ]2024-02-1613:36:26.146[main]utilities.LoggerLoad1)-User clicks on Operations in Lists Link
+[INFO ]2024-02-1613:36:26.283[main]utilities.LoggerLoad1)-The user is redirected to Basic Operations in Lists
+[INFO ]2024-02-1613:36:26.655[main]utilities.LoggerLoad1)-User clicks on try here button
+[INFO ]2024-02-1613:36:26.969[main]utilities.LoggerLoad1)-The user is redirected to Try Editor
+[INFO ]2024-02-1613:36:26.993[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:36:26.993[main]utilities.LoggerLoad1)-[@Array, @Array10] : The user is able to run code in Editor for Array page
+[INFO ]2024-02-1613:36:26.998[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:36:27.003[main]utilities.LoggerLoad1)-The user is in a page having an tryEditor with a Run button to test
+[INFO ]2024-02-1613:36:27.332[main]utilities.LoggerLoad1)-Title of current page is : Assessment
+[INFO ]2024-02-1613:36:27.334[main]utilities.LoggerLoad1)-The user enter valid python code in tryEditor from sheetname :pythonCode and row number : 0
+[INFO ]2024-02-1613:36:27.632[main]utilities.LoggerLoad1)-Expected result from Excel sheetname pythonCode and 0 : Hello
+[INFO ]2024-02-1613:36:27.714[main]utilities.LoggerLoad1)-User clicks on Run button
+[INFO ]2024-02-1613:36:27.772[main]utilities.LoggerLoad1)-Actual result  : Hello
+[INFO ]2024-02-1613:36:27.788[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:36:27.788[main]utilities.LoggerLoad1)-[@Array, @Array11] : The user is presented with error message for invalid code in Editor for Array page
+[INFO ]2024-02-1613:36:27.788[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:36:27.788[main]utilities.LoggerLoad1)-The user is in a page having an tryEditor with a Run button to test
+[INFO ]2024-02-1613:36:28.105[main]utilities.LoggerLoad1)-Title of current page is : Assessment
+[INFO ]2024-02-1613:36:28.110[main]utilities.LoggerLoad1)-The user enter python code with invalid syntax in tryEditor from sheetname :pythonCode and row number : 1
+[INFO ]2024-02-1613:36:28.439[main]utilities.LoggerLoad1)-User clicks on Run button
+[INFO ]2024-02-1613:36:28.457[main]utilities.LoggerLoad1)-Actual Error message is  : NameError: name 'String' is not defined on line 1
+[INFO ]2024-02-1613:36:28.483[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:36:28.483[main]utilities.LoggerLoad1)-[@Array, @Array12] : Navigating Applications of Array page
+[INFO ]2024-02-1613:36:28.483[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:36:28.710[main]utilities.LoggerLoad1)-The user is in Array
+[INFO ]2024-02-1613:36:28.984[main]utilities.LoggerLoad1)-User clicks on Application of Array Link
+[INFO ]2024-02-1613:36:29.107[main]utilities.LoggerLoad1)-The user is redirected to Applications of Array
+[INFO ]2024-02-1613:36:29.485[main]utilities.LoggerLoad1)-User clicks on try here button
+[INFO ]2024-02-1613:36:29.791[main]utilities.LoggerLoad1)-The user is redirected to Try Editor
+[INFO ]2024-02-1613:36:29.802[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:36:29.803[main]utilities.LoggerLoad1)-[@Array, @Array13] : The user is able to run code in Editor for Array page
+[INFO ]2024-02-1613:36:29.803[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:36:29.805[main]utilities.LoggerLoad1)-The user is in a page having an tryEditor with a Run button to test
+[INFO ]2024-02-1613:36:30.113[main]utilities.LoggerLoad1)-Title of current page is : Assessment
+[INFO ]2024-02-1613:36:30.116[main]utilities.LoggerLoad1)-The user enter valid python code in tryEditor from sheetname :pythonCode and row number : 0
+[INFO ]2024-02-1613:36:30.520[main]utilities.LoggerLoad1)-Expected result from Excel sheetname pythonCode and 0 : Hello
+[INFO ]2024-02-1613:36:30.667[main]utilities.LoggerLoad1)-User clicks on Run button
+[INFO ]2024-02-1613:36:30.699[main]utilities.LoggerLoad1)-Actual result  : Hello
+[INFO ]2024-02-1613:36:30.709[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:36:30.709[main]utilities.LoggerLoad1)-[@Array, @Array14] : The user is presented with error message for invalid code in Editor for Array page
+[INFO ]2024-02-1613:36:30.709[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:36:30.709[main]utilities.LoggerLoad1)-The user is in a page having an tryEditor with a Run button to test
+[INFO ]2024-02-1613:36:31.013[main]utilities.LoggerLoad1)-Title of current page is : Assessment
+[INFO ]2024-02-1613:36:31.018[main]utilities.LoggerLoad1)-The user enter python code with invalid syntax in tryEditor from sheetname :pythonCode and row number : 1
+[INFO ]2024-02-1613:36:31.356[main]utilities.LoggerLoad1)-User clicks on Run button
+[INFO ]2024-02-1613:36:31.370[main]utilities.LoggerLoad1)-Actual Error message is  : NameError: name 'String' is not defined on line 1
+[INFO ]2024-02-1613:36:31.384[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:36:31.384[main]utilities.LoggerLoad1)-[@Array, @Array15] : Navigating to Practice Questions page
+[INFO ]2024-02-1613:36:31.384[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:36:31.594[main]utilities.LoggerLoad1)-The user is in Array
+[INFO ]2024-02-1613:36:31.853[main]utilities.LoggerLoad1)-User clicks on Application of Array Link
+[INFO ]2024-02-1613:36:32.011[main]utilities.LoggerLoad1)-The user is redirected to Arrays in Python
+[INFO ]2024-02-1613:36:32.271[main]utilities.LoggerLoad1)-User clicks on Practice Questions Link
+[INFO ]2024-02-1613:36:32.442[main]utilities.LoggerLoad1)-The user is redirected to Practice Questions
+[INFO ]2024-02-1613:36:32.472[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:36:32.472[main]utilities.LoggerLoad1)-[@Array, @Array16] : The user is able to navigate to Question page from Search the array link
+[INFO ]2024-02-1613:36:32.472[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:36:32.596[main]utilities.LoggerLoad1)-The user is on the Practice Questions after logged in
+[INFO ]2024-02-1613:36:32.886[main]utilities.LoggerLoad1)-User clicks on Practice Questions - Search the array Link
+[INFO ]2024-02-1613:36:32.887[main]utilities.LoggerLoad1)-User redirected to Question page contains a question,an tryEditor with Run and Submit buttons
+[INFO ]2024-02-1613:36:32.893[main]utilities.LoggerLoad1)-Title of current page is : Assessment
+[INFO ]2024-02-1613:36:32.910[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:36:32.910[main]utilities.LoggerLoad1)-[@Array, @Array17] : The user is able to run code in tryEditor for Search the array link
+[INFO ]2024-02-1613:36:32.910[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:36:32.912[main]utilities.LoggerLoad1)-The user is on Search the array after logged in
+[INFO ]2024-02-1613:36:33.148[main]utilities.LoggerLoad1)-The user enter valid python code in tryEditor from sheetname :pythonCode and row number :2
+[INFO ]2024-02-1613:36:34.151[main]utilities.LoggerLoad1)-Expected result from Excel sheetname pythonCode and 2 : Element Found
+[INFO ]2024-02-1613:36:34.151[main]utilities.LoggerLoad1)-Click on Run button
+[INFO ]2024-02-1613:36:34.348[main]utilities.LoggerLoad1)-Actual result  : Element Found
+[INFO ]2024-02-1613:36:34.395[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:36:34.395[main]utilities.LoggerLoad1)-[@Array, @Array18] : The user is able to submit code in tryEditor for Search the array link
+[INFO ]2024-02-1613:36:34.395[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:36:34.395[main]utilities.LoggerLoad1)-The user is on Search the array after logged in
+[INFO ]2024-02-1613:36:34.638[main]utilities.LoggerLoad1)-The user enter valid python code in tryEditor from sheetname :pythonCode and row number :3
+[INFO ]2024-02-1613:36:35.627[main]utilities.LoggerLoad1)-Expected result from Excel sheetname pythonCode and 3 : submission success
+[INFO ]2024-02-1613:36:35.627[main]utilities.LoggerLoad1)-Click on Submit button
+[INFO ]2024-02-1613:36:36.337[main]utilities.LoggerLoad1)-Actual result of successful submission message : Some Tests failed. Please review code
+[INFO ]2024-02-1613:36:36.346[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:36:36.346[main]utilities.LoggerLoad1)-[@Array, @Array19] : The user is presented with error message for code with invalid syntax in tryEditor for Search the array link
+[INFO ]2024-02-1613:36:36.346[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:36:36.346[main]utilities.LoggerLoad1)-The user is on Search the array after logged in
+[INFO ]2024-02-1613:36:36.594[main]utilities.LoggerLoad1)-The user enter python code with invalid syntax in tryEditor from sheetname :pythonCode and row number : 1
+[INFO ]2024-02-1613:36:36.787[main]utilities.LoggerLoad1)-Click on Run button
+[INFO ]2024-02-1613:36:36.886[main]utilities.LoggerLoad1)-Actual Error message is  : NameError: name 'String' is not defined on line 1
+[INFO ]2024-02-1613:36:36.904[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:36:36.904[main]utilities.LoggerLoad1)-[@Array, @Array20] : The user is able to navigate to Question page from Max Consecutive Ones
+[INFO ]2024-02-1613:36:36.904[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:36:37.057[main]utilities.LoggerLoad1)-The user is on the Practice Questions after logged in
+[INFO ]2024-02-1613:36:37.384[main]utilities.LoggerLoad1)-User clicks on Practice Questions - Max Consecutive Ones Link
+[INFO ]2024-02-1613:36:37.386[main]utilities.LoggerLoad1)-User redirected to Question page contains a question,an tryEditor with Run and Submit buttons
+[INFO ]2024-02-1613:36:37.393[main]utilities.LoggerLoad1)-Title of current page is : Assessment
+[INFO ]2024-02-1613:36:37.415[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:36:37.415[main]utilities.LoggerLoad1)-[@Array, @Array21] : The user is able to run code in tryEditor for Max Consecutive Ones
+[INFO ]2024-02-1613:36:37.416[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:36:37.418[main]utilities.LoggerLoad1)-The user is on Max Consecutive Ones after logged in
+[INFO ]2024-02-1613:36:37.647[main]utilities.LoggerLoad1)-The user enter valid python code in tryEditor from sheetname :pythonCode and row number :4
+[INFO ]2024-02-1613:36:39.252[main]utilities.LoggerLoad1)-Expected result from Excel sheetname pythonCode and 4 : 2
+[INFO ]2024-02-1613:36:39.252[main]utilities.LoggerLoad1)-Click on Run button
+[INFO ]2024-02-1613:36:39.336[main]utilities.LoggerLoad1)-Actual result  : 2
+[INFO ]2024-02-1613:36:39.367[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:36:39.367[main]utilities.LoggerLoad1)-[@Array, @Array22] : The user is able to submit code in tryEditor for Max Consecutive Ones
+[INFO ]2024-02-1613:36:39.367[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:36:39.367[main]utilities.LoggerLoad1)-The user is on Max Consecutive Ones after logged in
+[INFO ]2024-02-1613:36:39.588[main]utilities.LoggerLoad1)-The user enter valid python code in tryEditor from sheetname :pythonCode and row number :5
+[INFO ]2024-02-1613:36:41.072[main]utilities.LoggerLoad1)-Expected result from Excel sheetname pythonCode and 5 : submission success
+[INFO ]2024-02-1613:36:41.081[main]utilities.LoggerLoad1)-Click on Submit button
+[INFO ]2024-02-1613:36:41.937[main]utilities.LoggerLoad1)-Actual result of successful submission message : Some Tests failed. Please review code
+[INFO ]2024-02-1613:36:41.946[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:36:41.946[main]utilities.LoggerLoad1)-[@Array, @Array23] : The user is presented with error message for invalid code in tryEditor for Max Consecutive Ones
+[INFO ]2024-02-1613:36:41.946[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:36:41.946[main]utilities.LoggerLoad1)-The user is on Max Consecutive Ones after logged in
+[INFO ]2024-02-1613:36:42.193[main]utilities.LoggerLoad1)-The user enter python code with invalid syntax in tryEditor from sheetname :pythonCode and row number : 1
+[INFO ]2024-02-1613:36:42.415[main]utilities.LoggerLoad1)-Click on Run button
+[INFO ]2024-02-1613:36:42.511[main]utilities.LoggerLoad1)-Actual Error message is  : NameError: name 'String' is not defined on line 1
+[INFO ]2024-02-1613:36:42.522[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:36:42.522[main]utilities.LoggerLoad1)-[@Array, @Array24] : The user is able to navigate to Question page from Find Numbers with Even Number of Digits
+[INFO ]2024-02-1613:36:42.522[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:36:42.640[main]utilities.LoggerLoad1)-The user is on the Practice Questions after logged in
+[INFO ]2024-02-1613:36:42.945[main]utilities.LoggerLoad1)-User clicks on Practice Questions Link - Find Numbers with Even Number of Digits
+[INFO ]2024-02-1613:36:42.946[main]utilities.LoggerLoad1)-User redirected to Question page contains a question,an tryEditor with Run and Submit buttons
+[INFO ]2024-02-1613:36:42.965[main]utilities.LoggerLoad1)-Title of current page is : Assessment
+[INFO ]2024-02-1613:36:42.983[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:36:42.983[main]utilities.LoggerLoad1)-[@Array, @Array25] : The user is able to run code in tryEditor for Find Numbers with Even Number of Digits
+[INFO ]2024-02-1613:36:42.984[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:36:42.986[main]utilities.LoggerLoad1)-The user is on Find Numbers with Even Number of Digits after logged in
+[INFO ]2024-02-1613:36:43.213[main]utilities.LoggerLoad1)-The user enter valid python code in tryEditor from sheetname :pythonCode and row number :6
+[INFO ]2024-02-1613:36:44.454[main]utilities.LoggerLoad1)-Expected result from Excel sheetname pythonCode and 6 : 2
+[INFO ]2024-02-1613:36:44.454[main]utilities.LoggerLoad1)-Click on Run button
+[INFO ]2024-02-1613:36:44.551[main]utilities.LoggerLoad1)-Actual result  : 2
+[INFO ]2024-02-1613:36:44.580[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:36:44.580[main]utilities.LoggerLoad1)-[@Array, @Array26] : The user is able to submit code in tryEditor for Find Numbers with Even Number of Digits
+[INFO ]2024-02-1613:36:44.580[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:36:44.580[main]utilities.LoggerLoad1)-The user is on Find Numbers with Even Number of Digits after logged in
+[INFO ]2024-02-1613:36:44.826[main]utilities.LoggerLoad1)-The user enter valid python code in tryEditor from sheetname :pythonCode and row number :7
+[INFO ]2024-02-1613:36:45.884[main]utilities.LoggerLoad1)-Expected result from Excel sheetname pythonCode and 7 : submission success
+[INFO ]2024-02-1613:36:45.899[main]utilities.LoggerLoad1)-Click on Submit button
+[INFO ]2024-02-1613:36:46.496[main]utilities.LoggerLoad1)-Actual result of successful submission message :Error occurred during submission
+[INFO ]2024-02-1613:36:46.517[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:36:46.517[main]utilities.LoggerLoad1)-[@Array, @Array27] : The user is presented with error message for code with invalid syntax in tryEditor for Find Numbers with Even Number of Digits
+[INFO ]2024-02-1613:36:46.517[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:36:46.517[main]utilities.LoggerLoad1)-The user is on Find Numbers with Even Number of Digits after logged in
+[INFO ]2024-02-1613:36:46.746[main]utilities.LoggerLoad1)-The user enter python code with invalid syntax in tryEditor from sheetname :pythonCode and row number : 1
+[INFO ]2024-02-1613:36:46.930[main]utilities.LoggerLoad1)-Click on Run button
+[INFO ]2024-02-1613:36:46.996[main]utilities.LoggerLoad1)-Actual Error message is  : NameError: name 'String' is not defined on line 1
+[INFO ]2024-02-1613:36:47.013[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:36:47.013[main]utilities.LoggerLoad1)-[@Array, @Array28] : The user is able to navigate to Question page from Squares of a Sorted Array
+[INFO ]2024-02-1613:36:47.013[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:36:47.191[main]utilities.LoggerLoad1)-The user is on the Practice Questions after logged in
+[INFO ]2024-02-1613:36:47.494[main]utilities.LoggerLoad1)-User clicks on Practice Questions Link - Squares of a sorted Array
+[INFO ]2024-02-1613:36:47.500[main]utilities.LoggerLoad1)-User redirected to Question page contains a question,an tryEditor with Run and Submit buttons
+[INFO ]2024-02-1613:36:47.508[main]utilities.LoggerLoad1)-Title of current page is : Assessment
+[INFO ]2024-02-1613:36:47.522[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:36:47.522[main]utilities.LoggerLoad1)-[@Array, @Array29] : The user is able to run code in tryEditor for Squares of a Sorted Array
+[INFO ]2024-02-1613:36:47.522[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:36:47.525[main]utilities.LoggerLoad1)-The user is on Squares of a Sorted Array after logged in
+[INFO ]2024-02-1613:36:47.742[main]utilities.LoggerLoad1)-The user enter valid python code in tryEditor from sheetname :pythonCode and row number :8
+[INFO ]2024-02-1613:36:48.917[main]utilities.LoggerLoad1)-Expected result from Excel sheetname pythonCode and 8 : [4, 9, 9, 49, 121]
+[INFO ]2024-02-1613:36:48.917[main]utilities.LoggerLoad1)-Click on Run button
+[INFO ]2024-02-1613:36:49.117[main]utilities.LoggerLoad1)-Actual result  : [4, 9, 9, 49, 121]
+[INFO ]2024-02-1613:36:49.129[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:36:49.129[main]utilities.LoggerLoad1)-[@Array, @Array30] : The user is able to submit code in tryEditor for Squares of a Sorted Array
+[INFO ]2024-02-1613:36:49.129[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:36:49.129[main]utilities.LoggerLoad1)-The user is on Squares of a Sorted Array after logged in
+[INFO ]2024-02-1613:36:49.378[main]utilities.LoggerLoad1)-The user enter valid python code in tryEditor from sheetname :pythonCode and row number :9
+[INFO ]2024-02-1613:36:50.666[main]utilities.LoggerLoad1)-Expected result from Excel sheetname pythonCode and 9 : submission success
+[INFO ]2024-02-1613:36:50.666[main]utilities.LoggerLoad1)-Click on Submit button
+[INFO ]2024-02-1613:36:51.326[main]utilities.LoggerLoad1)-Actual result of successful submission message : No tests were collected
+[INFO ]2024-02-1613:36:51.342[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:36:51.342[main]utilities.LoggerLoad1)-[@Array, @Array31] : The user is presented with error message for code with invalid syntax in tryEditor for Squares of a Sorted Array
+[INFO ]2024-02-1613:36:51.342[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:36:51.345[main]utilities.LoggerLoad1)-The user is on Squares of a Sorted Array after logged in
+[INFO ]2024-02-1613:36:51.564[main]utilities.LoggerLoad1)-The user enter python code with invalid syntax in tryEditor from sheetname :pythonCode and row number : 1
+[INFO ]2024-02-1613:36:51.748[main]utilities.LoggerLoad1)-Click on Run button
+[INFO ]2024-02-1613:36:51.800[main]utilities.LoggerLoad1)-Actual Error message is  : NameError: name 'String' is not defined on line 1
+[INFO ]2024-02-1613:36:51.824[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:36:51.824[main]utilities.LoggerLoad1)-[@DataStructures-Introduction, @DataStructures1] : The user is logged in to DS Algo portal
+[INFO ]2024-02-1613:36:51.824[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:36:51.828[main]utilities.LoggerLoad1)-The user is on Signin page of DS Algo portal
+[INFO ]2024-02-1613:36:52.167[main]utilities.LoggerLoad1)-User enters Username and Password
+[INFO ]2024-02-1613:36:52.167[main]utilities.LoggerLoad1)-User clicks on login button
+[INFO ]2024-02-1613:36:52.577[main]utilities.LoggerLoad1)-Title of current page isNumpyNinja
+[INFO ]2024-02-1613:36:52.596[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:36:52.597[main]utilities.LoggerLoad1)-[@DataStructures-Introduction, @DataStructures2] : Navigating to DataStructures-Introduction page
+[INFO ]2024-02-1613:36:52.597[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:36:52.714[main]utilities.LoggerLoad1)-The user is on the home page after logged in
+[INFO ]2024-02-1613:36:53.016[main]utilities.LoggerLoad1)-User is in Graph module page
+[INFO ]2024-02-1613:36:53.032[main]utilities.LoggerLoad1)-Title of current page is : Graph
+[INFO ]2024-02-1613:36:53.047[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:36:53.047[main]utilities.LoggerLoad1)-[@DataStructures-Introduction, @DataStructures3] : Navigating DataStructures-Introduction page
+[INFO ]2024-02-1613:36:53.047[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:36:53.188[main]utilities.LoggerLoad1)-The user is in DataStructures-Introduction
+[INFO ]2024-02-1613:36:53.466[main]utilities.LoggerLoad1)-User is in Time Complexity page
+[INFO ]2024-02-1613:36:53.589[main]utilities.LoggerLoad1)-The user is redirected to Time Complexity
+[INFO ]2024-02-1613:36:53.959[main]utilities.LoggerLoad1)-User clicks on try here button
+[INFO ]2024-02-1613:36:54.271[main]utilities.LoggerLoad1)-The user is redirected to Try Editor
+[INFO ]2024-02-1613:36:54.288[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:36:54.288[main]utilities.LoggerLoad1)-[@DataStructures-Introduction, @DataStructures4] : The user is able to run code in Editor
+[INFO ]2024-02-1613:36:54.289[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:36:54.290[main]utilities.LoggerLoad1)-The user is in a page having an tryEditor with a Run button to test
+[INFO ]2024-02-1613:36:54.591[main]utilities.LoggerLoad1)-Title of current page is : Assessment
+[INFO ]2024-02-1613:36:54.593[main]utilities.LoggerLoad1)-The user enter valid python code in tryEditor from sheetname :pythonCode and row number : 0
+[INFO ]2024-02-1613:36:54.852[main]utilities.LoggerLoad1)-Expected result from Excel sheetname pythonCode and 0 : Hello
+[INFO ]2024-02-1613:36:54.934[main]utilities.LoggerLoad1)-User clicks on Run button
+[INFO ]2024-02-1613:36:54.997[main]utilities.LoggerLoad1)-Actual result  : Hello
+[INFO ]2024-02-1613:36:55.016[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:36:55.016[main]utilities.LoggerLoad1)-[@DataStructures-Introduction, @DataStructures5] : The user is presented with error message for invalid code in Editor
+[INFO ]2024-02-1613:36:55.016[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:36:55.016[main]utilities.LoggerLoad1)-The user is in a page having an tryEditor with a Run button to test
+[INFO ]2024-02-1613:36:55.367[main]utilities.LoggerLoad1)-Title of current page is : Assessment
+[INFO ]2024-02-1613:36:55.371[main]utilities.LoggerLoad1)-The user enter python code with invalid syntax in tryEditor from sheetname :pythonCode and row number : 1
+[INFO ]2024-02-1613:36:55.678[main]utilities.LoggerLoad1)-User clicks on Run button
+[INFO ]2024-02-1613:36:55.686[main]utilities.LoggerLoad1)-Actual Error message is  : NameError: name 'String' is not defined on line 1
+[INFO ]2024-02-1613:36:55.705[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:36:55.705[main]utilities.LoggerLoad1)-[@DataStructures-Introduction, @DataStructures6] : The user is able to click and navigate to Practice Questions
+[INFO ]2024-02-1613:36:55.705[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:36:55.857[main]utilities.LoggerLoad1)-The user is on the Time Complexity after logged in
+[INFO ]2024-02-1613:36:56.055[main]utilities.LoggerLoad1)-User clicked on the Practice Questions link
+[INFO ]2024-02-1613:36:56.055[main]utilities.LoggerLoad1)-user is in practice Questions Page
+[INFO ]2024-02-1613:36:56.063[main]utilities.LoggerLoad1)-Title of current page is :Practice Questions
+[INFO ]2024-02-1613:36:56.103[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:36:56.104[main]utilities.LoggerLoad1)-[@Graph, @Graph_S1] : The user is logged in to DS Algo portal
+[INFO ]2024-02-1613:36:56.104[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:36:56.108[main]utilities.LoggerLoad1)-The user is on Signin page of DS Algo portal
+[INFO ]2024-02-1613:36:56.365[main]utilities.LoggerLoad1)-User enters Username and Password
+[INFO ]2024-02-1613:36:56.366[main]utilities.LoggerLoad1)-User clicks on login button
+[INFO ]2024-02-1613:36:56.788[main]utilities.LoggerLoad1)-Title of current page isNumpyNinja
+[INFO ]2024-02-1613:36:56.805[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:36:56.805[main]utilities.LoggerLoad1)-[@Graph, @Graph_S2] : The user is able to navigate to home page
+[INFO ]2024-02-1613:36:56.805[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:36:56.924[main]utilities.LoggerLoad1)-The user is on the home page after logged in
+[INFO ]2024-02-1613:36:57.159[main]utilities.LoggerLoad1)-User is in Graph module page
+[INFO ]2024-02-1613:36:57.169[main]utilities.LoggerLoad1)-title of current page : Graph
+[INFO ]2024-02-1613:36:57.179[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:36:57.179[main]utilities.LoggerLoad1)-[@Graph, @Graph_S3] : The user is able to navigate to Graph page
+[INFO ]2024-02-1613:36:57.179[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:36:57.322[main]utilities.LoggerLoad1)-The user is on the Graph url after logged in
+[INFO ]2024-02-1613:36:57.683[main]utilities.LoggerLoad1)-User clicked on the Graph link
+[INFO ]2024-02-1613:36:57.698[main]utilities.LoggerLoad1)-Title of the current page is : Graph
+[INFO ]2024-02-1613:36:57.709[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:36:57.709[main]utilities.LoggerLoad1)-[@Graph, @Graph_S4] : The user should be redirected to tryeditor page with run button to test python code
+[INFO ]2024-02-1613:36:57.709[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:36:57.840[main]utilities.LoggerLoad1)-The user is on the Graph url after logged in
+[INFO ]2024-02-1613:36:58.043[main]utilities.LoggerLoad1)-User clicked on the Graph link
+[INFO ]2024-02-1613:36:58.423[main]utilities.LoggerLoad1)-User clicked on Graph Try here Button
+[INFO ]2024-02-1613:36:58.436[main]utilities.LoggerLoad1)-Title of current page is :Assessment
+[INFO ]2024-02-1613:36:58.455[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:36:58.455[main]utilities.LoggerLoad1)-[@Graph, @Graph_S5] : The user is able to run code in Editor for Graph page
+[INFO ]2024-02-1613:36:58.455[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:36:58.455[main]utilities.LoggerLoad1)-The user is in a page having an tryEditor with a Run button to test
+[INFO ]2024-02-1613:36:58.774[main]utilities.LoggerLoad1)-Title of current page is : Assessment
+[INFO ]2024-02-1613:36:58.775[main]utilities.LoggerLoad1)-The user enter valid python code in tryEditor from sheetname :pythonCode and row number : 0
+[INFO ]2024-02-1613:36:59.030[main]utilities.LoggerLoad1)-Expected result from Excel sheetname pythonCode and 0 : Hello
+[INFO ]2024-02-1613:36:59.115[main]utilities.LoggerLoad1)-User clicks on Run button
+[INFO ]2024-02-1613:36:59.198[main]utilities.LoggerLoad1)-Actual result  : Hello
+[INFO ]2024-02-1613:36:59.214[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:36:59.214[main]utilities.LoggerLoad1)-[@Graph, @Graph_S6] : The user is presented with error message for invalid code in Editor for Graph page
+[INFO ]2024-02-1613:36:59.214[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:36:59.214[main]utilities.LoggerLoad1)-The user is in a page having an tryEditor with a Run button to test
+[INFO ]2024-02-1613:36:59.534[main]utilities.LoggerLoad1)-Title of current page is : Assessment
+[INFO ]2024-02-1613:36:59.536[main]utilities.LoggerLoad1)-The user enter python code with invalid syntax in tryEditor from sheetname :pythonCode and row number : 1
+[INFO ]2024-02-1613:36:59.782[main]utilities.LoggerLoad1)-User clicks on Run button
+[INFO ]2024-02-1613:36:59.798[main]utilities.LoggerLoad1)-Actual Error message is  : NameError: name 'String' is not defined on line 1
+[INFO ]2024-02-1613:36:59.815[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:36:59.816[main]utilities.LoggerLoad1)-[@Graph, @Graph_S7] : The user is able to navigate to graph page and click on Graph Representations link
+[INFO ]2024-02-1613:36:59.816[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:36:59.965[main]utilities.LoggerLoad1)-The user is on the Graph url after logged in
+[INFO ]2024-02-1613:37:00.498[main]utilities.LoggerLoad1)-User clicked on the Graph Representations link
+[INFO ]2024-02-1613:37:00.498[main]utilities.LoggerLoad1)-user is in Graph Representation Page
+[INFO ]2024-02-1613:37:00.510[main]utilities.LoggerLoad1)-Title of current page is :Graph Representations
+[INFO ]2024-02-1613:37:00.528[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:37:00.528[main]utilities.LoggerLoad1)-[@Graph, @Graph_S8] : The user should be redirected to tryeditor page with run button to test python code
+[INFO ]2024-02-1613:37:00.528[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:37:00.704[main]utilities.LoggerLoad1)-The user is on the Graph url after logged in
+[INFO ]2024-02-1613:37:00.881[main]utilities.LoggerLoad1)-User clicked on the Graph Representations link
+[INFO ]2024-02-1613:37:00.881[main]utilities.LoggerLoad1)-user is in Graph Representation Page
+[INFO ]2024-02-1613:37:01.237[main]utilities.LoggerLoad1)-User clicked on Graph Try here Button
+[INFO ]2024-02-1613:37:01.248[main]utilities.LoggerLoad1)-Title of current page is :Assessment
+[INFO ]2024-02-1613:37:01.270[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:37:01.270[main]utilities.LoggerLoad1)-[@Graph, @Graph_S9] : The user is able to run code in Editor for Graph Representations page
+[INFO ]2024-02-1613:37:01.270[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:37:01.272[main]utilities.LoggerLoad1)-The user is in a page having an tryEditor with a Run button to test
+[INFO ]2024-02-1613:37:01.575[main]utilities.LoggerLoad1)-Title of current page is : Assessment
+[INFO ]2024-02-1613:37:01.576[main]utilities.LoggerLoad1)-The user enter valid python code in tryEditor from sheetname :pythonCode and row number : 0
+[INFO ]2024-02-1613:37:01.837[main]utilities.LoggerLoad1)-Expected result from Excel sheetname pythonCode and 0 : Hello
+[INFO ]2024-02-1613:37:01.928[main]utilities.LoggerLoad1)-User clicks on Run button
+[INFO ]2024-02-1613:37:02.015[main]utilities.LoggerLoad1)-Actual result  : Hello
+[INFO ]2024-02-1613:37:02.026[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:37:02.026[main]utilities.LoggerLoad1)-[@Graph, @Graph_S10] : The user is presented with error message for invalid code in Editor for Graph Representations page
+[INFO ]2024-02-1613:37:02.026[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:37:02.026[main]utilities.LoggerLoad1)-The user is in a page having an tryEditor with a Run button to test
+[INFO ]2024-02-1613:37:02.358[main]utilities.LoggerLoad1)-Title of current page is : Assessment
+[INFO ]2024-02-1613:37:02.361[main]utilities.LoggerLoad1)-The user enter python code with invalid syntax in tryEditor from sheetname :pythonCode and row number : 1
+[INFO ]2024-02-1613:37:02.800[main]utilities.LoggerLoad1)-User clicks on Run button
+[INFO ]2024-02-1613:37:02.824[main]utilities.LoggerLoad1)-Actual Error message is  : NameError: name 'String' is not defined on line 1
+[INFO ]2024-02-1613:37:02.836[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:37:02.836[main]utilities.LoggerLoad1)-[@Graph, @Graph_S11] : The user is able to navigate to graph url and click on Practice Questions
+[INFO ]2024-02-1613:37:02.836[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:37:03.000[main]utilities.LoggerLoad1)-The user is on the Graph url after logged in
+[INFO ]2024-02-1613:37:03.175[main]utilities.LoggerLoad1)-User clicked on the Graph link
+[INFO ]2024-02-1613:37:03.349[main]utilities.LoggerLoad1)-User clicked on the Practice Questions link
+[INFO ]2024-02-1613:37:03.350[main]utilities.LoggerLoad1)-user is in practice Questions Page
+[INFO ]2024-02-1613:37:03.363[main]utilities.LoggerLoad1)-Title of current page is :Practice Questions
+[INFO ]2024-02-1613:37:03.389[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:37:03.389[main]utilities.LoggerLoad1)-[@home, @home1] : User launch home page of an dsalgo project
+[INFO ]2024-02-1613:37:03.389[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:37:03.664[main]utilities.LoggerLoad1)-User opens DS Algo portal link
+[INFO ]2024-02-1613:37:03.870[main]utilities.LoggerLoad1)-User clicks on Get Started button
+[INFO ]2024-02-1613:37:03.885[main]utilities.LoggerLoad1)-User is redirected to homepage
+[INFO ]2024-02-1613:37:03.895[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:37:03.895[main]utilities.LoggerLoad1)-[@home, @home2] : User is on Home page and click getstarted link "Datastructures" on home page without sign in
+[INFO ]2024-02-1613:37:03.895[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:37:04.017[main]utilities.LoggerLoad1)-User is in home page
+[INFO ]2024-02-1613:37:04.326[main]utilities.LoggerLoad1)-User clicks on Get Started link on homepage without login
+[ERROR]2024-02-1613:37:14.440[main]utilities.LoggerLoad1)-Steps Failed , Taking Screenshot
+[INFO ]2024-02-1613:37:14.729[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:37:14.729[main]utilities.LoggerLoad1)-[@home, @home2] : User is on Home page and click getstarted link "Arrays" on home page without sign in
+[INFO ]2024-02-1613:37:14.729[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:37:14.852[main]utilities.LoggerLoad1)-User is in home page
+[INFO ]2024-02-1613:37:15.166[main]utilities.LoggerLoad1)-User clicks on Get Started link on homepage without login
+[ERROR]2024-02-1613:37:25.187[main]utilities.LoggerLoad1)-Steps Failed , Taking Screenshot
+[INFO ]2024-02-1613:37:25.419[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:37:25.419[main]utilities.LoggerLoad1)-[@home, @home2] : User is on Home page and click getstarted link "Linkedlist" on home page without sign in
+[INFO ]2024-02-1613:37:25.419[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:37:25.567[main]utilities.LoggerLoad1)-User is in home page
+[INFO ]2024-02-1613:37:25.979[main]utilities.LoggerLoad1)-User clicks on Get Started link on homepage without login
+[ERROR]2024-02-1613:37:36.006[main]utilities.LoggerLoad1)-Steps Failed , Taking Screenshot
+[INFO ]2024-02-1613:37:36.416[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:37:36.416[main]utilities.LoggerLoad1)-[@home, @home2] : User is on Home page and click getstarted link "Stack" on home page without sign in
+[INFO ]2024-02-1613:37:36.416[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:37:36.638[main]utilities.LoggerLoad1)-User is in home page
+[INFO ]2024-02-1613:37:37.040[main]utilities.LoggerLoad1)-User clicks on Get Started link on homepage without login
+[ERROR]2024-02-1613:37:47.100[main]utilities.LoggerLoad1)-Steps Failed , Taking Screenshot
+[INFO ]2024-02-1613:37:47.432[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:37:47.432[main]utilities.LoggerLoad1)-[@home, @home2] : User is on Home page and click getstarted link "Queue" on home page without sign in
+[INFO ]2024-02-1613:37:47.432[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:37:47.616[main]utilities.LoggerLoad1)-User is in home page
+[INFO ]2024-02-1613:37:47.965[main]utilities.LoggerLoad1)-User clicks on Get Started link on homepage without login
+[ERROR]2024-02-1613:37:58.010[main]utilities.LoggerLoad1)-Steps Failed , Taking Screenshot
+[INFO ]2024-02-1613:37:58.402[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:37:58.403[main]utilities.LoggerLoad1)-[@home, @home2] : User is on Home page and click getstarted link "Tree" on home page without sign in
+[INFO ]2024-02-1613:37:58.403[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:37:58.515[main]utilities.LoggerLoad1)-User is in home page
+[INFO ]2024-02-1613:37:58.968[main]utilities.LoggerLoad1)-User clicks on Get Started link on homepage without login
+[ERROR]2024-02-1613:38:09.024[main]utilities.LoggerLoad1)-Steps Failed , Taking Screenshot
+[INFO ]2024-02-1613:38:09.373[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:38:09.374[main]utilities.LoggerLoad1)-[@home, @home2] : User is on Home page and click getstarted link "Graph" on home page without sign in
+[INFO ]2024-02-1613:38:09.374[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:38:09.576[main]utilities.LoggerLoad1)-User is in home page
+[INFO ]2024-02-1613:38:09.867[main]utilities.LoggerLoad1)-User clicks on Get Started link on homepage without login
+[ERROR]2024-02-1613:38:19.880[main]utilities.LoggerLoad1)-Steps Failed , Taking Screenshot
+[INFO ]2024-02-1613:38:20.255[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:38:20.255[main]utilities.LoggerLoad1)-[@home, @home3] : User is on Home page and click on dropdown "Arrays" without sign in
+[INFO ]2024-02-1613:38:20.255[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:38:20.439[main]utilities.LoggerLoad1)-User is in home page
+[INFO ]2024-02-1613:38:20.827[main]utilities.LoggerLoad1)-User clicks on dropdown
+[ERROR]2024-02-1613:38:30.863[main]utilities.LoggerLoad1)-Steps Failed , Taking Screenshot
+[INFO ]2024-02-1613:38:31.203[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:38:31.203[main]utilities.LoggerLoad1)-[@home, @home3] : User is on Home page and click on dropdown "Linkedlist" without sign in
+[INFO ]2024-02-1613:38:31.204[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:38:31.402[main]utilities.LoggerLoad1)-User is in home page
+[INFO ]2024-02-1613:38:31.812[main]utilities.LoggerLoad1)-User clicks on dropdown
+[ERROR]2024-02-1613:38:41.863[main]utilities.LoggerLoad1)-Steps Failed , Taking Screenshot
+[INFO ]2024-02-1613:38:42.199[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:38:42.200[main]utilities.LoggerLoad1)-[@home, @home3] : User is on Home page and click on dropdown "Stack" without sign in
+[INFO ]2024-02-1613:38:42.200[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:38:42.347[main]utilities.LoggerLoad1)-User is in home page
+[INFO ]2024-02-1613:38:42.621[main]utilities.LoggerLoad1)-User clicks on dropdown
+[ERROR]2024-02-1613:38:52.687[main]utilities.LoggerLoad1)-Steps Failed , Taking Screenshot
+[INFO ]2024-02-1613:38:53.019[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:38:53.020[main]utilities.LoggerLoad1)-[@home, @home3] : User is on Home page and click on dropdown "Queue" without sign in
+[INFO ]2024-02-1613:38:53.020[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:38:53.142[main]utilities.LoggerLoad1)-User is in home page
+[INFO ]2024-02-1613:38:53.552[main]utilities.LoggerLoad1)-User clicks on dropdown
+[ERROR]2024-02-1613:39:03.560[main]utilities.LoggerLoad1)-Steps Failed , Taking Screenshot
+[INFO ]2024-02-1613:39:03.911[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:39:03.911[main]utilities.LoggerLoad1)-[@home, @home3] : User is on Home page and click on dropdown "Tree" without sign in
+[INFO ]2024-02-1613:39:03.911[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:39:04.027[main]utilities.LoggerLoad1)-User is in home page
+[INFO ]2024-02-1613:39:04.529[main]utilities.LoggerLoad1)-User clicks on dropdown
+[ERROR]2024-02-1613:39:14.555[main]utilities.LoggerLoad1)-Steps Failed , Taking Screenshot
+[INFO ]2024-02-1613:39:14.915[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:39:14.915[main]utilities.LoggerLoad1)-[@home, @home3] : User is on Home page and click on dropdown "Graph" without sign in
+[INFO ]2024-02-1613:39:14.915[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:39:15.110[main]utilities.LoggerLoad1)-User is in home page
+[INFO ]2024-02-1613:39:15.738[main]utilities.LoggerLoad1)-User clicks on dropdown
+[ERROR]2024-02-1613:39:25.764[main]utilities.LoggerLoad1)-Steps Failed , Taking Screenshot
+[INFO ]2024-02-1613:39:26.064[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:39:26.064[main]utilities.LoggerLoad1)-[@home, @home4] : User is on Home page and click on sign in
+[INFO ]2024-02-1613:39:26.064[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:39:26.249[main]utilities.LoggerLoad1)-User is in home page
+[ERROR]2024-02-1613:39:36.261[main]utilities.LoggerLoad1)-Steps Failed , Taking Screenshot
+[INFO ]2024-02-1613:39:36.489[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:39:36.489[main]utilities.LoggerLoad1)-[@home, @home5] : User is on Home page and click on Register
+[INFO ]2024-02-1613:39:36.489[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:39:36.619[main]utilities.LoggerLoad1)-User is in home page
+[ERROR]2024-02-1613:39:46.673[main]utilities.LoggerLoad1)-Steps Failed , Taking Screenshot
+[INFO ]2024-02-1613:39:47.058[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:39:47.058[main]utilities.LoggerLoad1)-[@LinkedList, @LinkedList01] : The user is logged in to DS Algo portal
+[INFO ]2024-02-1613:39:47.058[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:39:47.059[main]utilities.LoggerLoad1)-The user is on Signin page of DS Algo portal
+[INFO ]2024-02-1613:39:47.471[main]utilities.LoggerLoad1)-User enters Username and Password
+[INFO ]2024-02-1613:39:47.472[main]utilities.LoggerLoad1)-User clicks on login button
+[INFO ]2024-02-1613:39:47.963[main]utilities.LoggerLoad1)-Title of current page isNumpyNinja
+[INFO ]2024-02-1613:39:47.968[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:39:47.968[main]utilities.LoggerLoad1)-[@LinkedList, @LinkedList02] : User navigated to "linked list" page
+[INFO ]2024-02-1613:39:47.968[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:39:47.978[main]utilities.LoggerLoad1)-Title of current page is NumpyNinja
+[INFO ]2024-02-1613:39:47.979[main]utilities.LoggerLoad1)-The user select Linked List from the drop down menu
+[INFO ]2024-02-1613:39:47.981[main]utilities.LoggerLoad1)-User redirected to linked list data structure Page 
+[INFO ]2024-02-1613:39:47.989[main]utilities.LoggerLoad1)-Title of current page is : NumpyNinja
+[INFO ]2024-02-1613:39:47.997[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:39:47.997[main]utilities.LoggerLoad1)-[@LinkedList, @LinkedList03] : User navigated to "Introduction" page
+[INFO ]2024-02-1613:39:47.997[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:39:48.285[main]utilities.LoggerLoad1)-The user is on the Linked List page after logged in
+[INFO ]2024-02-1613:39:48.717[main]utilities.LoggerLoad1)-User redirected to the Page Introduction
+[INFO ]2024-02-1613:39:48.729[main]utilities.LoggerLoad1)-Title of current page is checking:Introduction
+[INFO ]2024-02-1613:39:48.734[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:39:48.735[main]utilities.LoggerLoad1)-[@LinkedList, @LinkedList04] : User navigated to tryEditor page with Run button from Introduction page
+[INFO ]2024-02-1613:39:48.735[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:39:48.916[main]utilities.LoggerLoad1)-The user is on the Introduction after logged in
+[INFO ]2024-02-1613:39:49.421[main]utilities.LoggerLoad1)-User redirected to a page having an tryEditor with a Run button to test
+[INFO ]2024-02-1613:39:49.428[main]utilities.LoggerLoad1)-Title of current page is :Assessment
+[INFO ]2024-02-1613:39:49.439[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:39:49.439[main]utilities.LoggerLoad1)-[@LinkedList, @LinkedList05] : The user is able to run code in Editor for linked list page
+[INFO ]2024-02-1613:39:49.439[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:39:49.440[main]utilities.LoggerLoad1)-The user is in a page having an tryEditor with a Run button to test
+[INFO ]2024-02-1613:39:49.775[main]utilities.LoggerLoad1)-Title of current page is : Assessment
+[INFO ]2024-02-1613:39:49.776[main]utilities.LoggerLoad1)-The user enter valid python code in tryEditor from sheetname :pythonCode and row number : 0
+[INFO ]2024-02-1613:39:50.035[main]utilities.LoggerLoad1)-Expected result from Excel sheetname pythonCode and 0 : Hello
+[INFO ]2024-02-1613:39:50.152[main]utilities.LoggerLoad1)-User clicks on Run button
+[INFO ]2024-02-1613:39:50.227[main]utilities.LoggerLoad1)-Actual result  : Hello
+[INFO ]2024-02-1613:39:50.235[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:39:50.237[main]utilities.LoggerLoad1)-[@LinkedList, @LinkedList06] : The user is presented with error message for invalid code in Editor for linked list page
+[INFO ]2024-02-1613:39:50.237[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:39:50.238[main]utilities.LoggerLoad1)-The user is in a page having an tryEditor with a Run button to test
+[INFO ]2024-02-1613:39:50.545[main]utilities.LoggerLoad1)-Title of current page is : Assessment
+[INFO ]2024-02-1613:39:50.545[main]utilities.LoggerLoad1)-The user enter python code with invalid syntax in tryEditor from sheetname :pythonCode and row number : 1
+[INFO ]2024-02-1613:39:50.756[main]utilities.LoggerLoad1)-User clicks on Run button
+[INFO ]2024-02-1613:39:50.763[main]utilities.LoggerLoad1)-Actual Error message is  : NameError: name 'String' is not defined on line 1
+[INFO ]2024-02-1613:39:50.768[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:39:50.768[main]utilities.LoggerLoad1)-[@LinkedList, @LinkedList07] : User navigated to "creating linked list" page
+[INFO ]2024-02-1613:39:50.768[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:39:51.050[main]utilities.LoggerLoad1)-The user is on the Linked List page after logged in
+[INFO ]2024-02-1613:39:51.460[main]utilities.LoggerLoad1)-User redirected to the Page Creating Linked LIst
+[INFO ]2024-02-1613:39:51.470[main]utilities.LoggerLoad1)-Title of current page is checking:Creating Linked LIst
+[INFO ]2024-02-1613:39:51.480[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:39:51.480[main]utilities.LoggerLoad1)-[@LinkedList, @LinkedList08] : User navigated to tryEditor page with Run button from Creating a Linked List page
+[INFO ]2024-02-1613:39:51.480[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:39:51.627[main]utilities.LoggerLoad1)-The user is on the Creating a Linked List after logged in
+[INFO ]2024-02-1613:39:51.984[main]utilities.LoggerLoad1)-User redirected to a page having an tryEditor with a Run button to test
+[INFO ]2024-02-1613:39:52.004[main]utilities.LoggerLoad1)-Title of current page is : Assessment
+[INFO ]2024-02-1613:39:52.010[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:39:52.010[main]utilities.LoggerLoad1)-[@LinkedList, @LinkedList09] : The user is able to run code in Editor for linked list page
+[INFO ]2024-02-1613:39:52.010[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:39:52.010[main]utilities.LoggerLoad1)-The user is in a page having an tryEditor with a Run button to test
+[INFO ]2024-02-1613:39:52.340[main]utilities.LoggerLoad1)-Title of current page is : Assessment
+[INFO ]2024-02-1613:39:52.341[main]utilities.LoggerLoad1)-The user enter valid python code in tryEditor from sheetname :pythonCode and row number : 0
+[INFO ]2024-02-1613:39:52.590[main]utilities.LoggerLoad1)-Expected result from Excel sheetname pythonCode and 0 : Hello
+[INFO ]2024-02-1613:39:52.664[main]utilities.LoggerLoad1)-User clicks on Run button
+[INFO ]2024-02-1613:39:52.703[main]utilities.LoggerLoad1)-Actual result  : Hello
+[INFO ]2024-02-1613:39:52.710[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:39:52.710[main]utilities.LoggerLoad1)-[@LinkedList, @LinkedList10] : The user is presented with error message for invalid code in Editor for linked list page
+[INFO ]2024-02-1613:39:52.710[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:39:52.710[main]utilities.LoggerLoad1)-The user is in a page having an tryEditor with a Run button to test
+[INFO ]2024-02-1613:39:53.034[main]utilities.LoggerLoad1)-Title of current page is : Assessment
+[INFO ]2024-02-1613:39:53.036[main]utilities.LoggerLoad1)-The user enter python code with invalid syntax in tryEditor from sheetname :pythonCode and row number : 1
+[INFO ]2024-02-1613:39:53.357[main]utilities.LoggerLoad1)-User clicks on Run button
+[INFO ]2024-02-1613:39:53.362[main]utilities.LoggerLoad1)-Actual Error message is  : NameError: name 'String' is not defined on line 1
+[INFO ]2024-02-1613:39:53.368[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:39:53.368[main]utilities.LoggerLoad1)-[@LinkedList, @LinkedList11] : User navigated to "Types of linked list" page
+[INFO ]2024-02-1613:39:53.368[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:39:53.646[main]utilities.LoggerLoad1)-The user is on the Linked List page after logged in
+[INFO ]2024-02-1613:39:54.076[main]utilities.LoggerLoad1)-User redirected to the Page Types of Linked List
+[INFO ]2024-02-1613:39:54.079[main]utilities.LoggerLoad1)-Title of current page is checking:Types of Linked List
+[INFO ]2024-02-1613:39:54.085[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:39:54.085[main]utilities.LoggerLoad1)-[@LinkedList, @LinkedList12] : User navigated to tryEditor page with Run button from Types of Linked List
+[INFO ]2024-02-1613:39:54.085[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:39:54.359[main]utilities.LoggerLoad1)-The user is on the Types of Linked list after logged in
+[INFO ]2024-02-1613:39:54.688[main]utilities.LoggerLoad1)-User redirected to a page having an tryEditor with a Run button to test
+[INFO ]2024-02-1613:39:54.694[main]utilities.LoggerLoad1)-Title of current page is : Assessment
+[INFO ]2024-02-1613:39:54.700[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:39:54.700[main]utilities.LoggerLoad1)-[@LinkedList, @LinkedList13] : The user is able to run code in Editor for linked list page
+[INFO ]2024-02-1613:39:54.700[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:39:54.701[main]utilities.LoggerLoad1)-The user is in a page having an tryEditor with a Run button to test
+[INFO ]2024-02-1613:39:54.992[main]utilities.LoggerLoad1)-Title of current page is : Assessment
+[INFO ]2024-02-1613:39:54.992[main]utilities.LoggerLoad1)-The user enter valid python code in tryEditor from sheetname :pythonCode and row number : 0
+[INFO ]2024-02-1613:39:55.199[main]utilities.LoggerLoad1)-Expected result from Excel sheetname pythonCode and 0 : Hello
+[INFO ]2024-02-1613:39:55.231[main]utilities.LoggerLoad1)-User clicks on Run button
+[INFO ]2024-02-1613:39:55.255[main]utilities.LoggerLoad1)-Actual result  : Hello
+[INFO ]2024-02-1613:39:55.260[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:39:55.260[main]utilities.LoggerLoad1)-[@LinkedList, @LinkedList14] : The user is presented with error message for invalid code in Editor for linked list page
+[INFO ]2024-02-1613:39:55.260[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:39:55.261[main]utilities.LoggerLoad1)-The user is in a page having an tryEditor with a Run button to test
+[INFO ]2024-02-1613:39:55.551[main]utilities.LoggerLoad1)-Title of current page is : Assessment
+[INFO ]2024-02-1613:39:55.553[main]utilities.LoggerLoad1)-The user enter python code with invalid syntax in tryEditor from sheetname :pythonCode and row number : 1
+[INFO ]2024-02-1613:39:55.758[main]utilities.LoggerLoad1)-User clicks on Run button
+[INFO ]2024-02-1613:39:55.765[main]utilities.LoggerLoad1)-Actual Error message is  : NameError: name 'String' is not defined on line 1
+[INFO ]2024-02-1613:39:55.773[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:39:55.773[main]utilities.LoggerLoad1)-[@LinkedList, @LinkedList15] : user navigated to "Implementation linked list in python" page
+[INFO ]2024-02-1613:39:55.773[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:39:56.047[main]utilities.LoggerLoad1)-The user is on the Linked List page after logged in
+[INFO ]2024-02-1613:39:56.314[main]utilities.LoggerLoad1)-User redirected to the Page Implement Linked List in Python
+[INFO ]2024-02-1613:39:56.324[main]utilities.LoggerLoad1)-Title of current page is checking:Implement Linked List in Python
+[INFO ]2024-02-1613:39:56.336[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:39:56.336[main]utilities.LoggerLoad1)-[@LinkedList, @LinkedList16] : User navigated to tryEditor page with Run button from Implement Linked List in Python page
+[INFO ]2024-02-1613:39:56.336[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:39:56.466[main]utilities.LoggerLoad1)-The user is on the Implement Linked List in Python after logged in
+[INFO ]2024-02-1613:39:56.776[main]utilities.LoggerLoad1)-User redirected to a page having an tryEditor with a Run button to test
+[INFO ]2024-02-1613:39:56.783[main]utilities.LoggerLoad1)-Title of current page is : Assessment
+[INFO ]2024-02-1613:39:56.788[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:39:56.788[main]utilities.LoggerLoad1)-[@LinkedList, @LinkedList17] : The user is able to run code in Editor for linked list page
+[INFO ]2024-02-1613:39:56.788[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:39:56.789[main]utilities.LoggerLoad1)-The user is in a page having an tryEditor with a Run button to test
+[INFO ]2024-02-1613:39:57.073[main]utilities.LoggerLoad1)-Title of current page is : Assessment
+[INFO ]2024-02-1613:39:57.074[main]utilities.LoggerLoad1)-The user enter valid python code in tryEditor from sheetname :pythonCode and row number : 0
+[INFO ]2024-02-1613:39:57.260[main]utilities.LoggerLoad1)-Expected result from Excel sheetname pythonCode and 0 : Hello
+[INFO ]2024-02-1613:39:57.292[main]utilities.LoggerLoad1)-User clicks on Run button
+[INFO ]2024-02-1613:39:57.312[main]utilities.LoggerLoad1)-Actual result  : Hello
+[INFO ]2024-02-1613:39:57.316[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:39:57.316[main]utilities.LoggerLoad1)-[@LinkedList, @LinkedList18] : The user is presented with error message for invalid code in Editor for linked list page
+[INFO ]2024-02-1613:39:57.316[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:39:57.317[main]utilities.LoggerLoad1)-The user is in a page having an tryEditor with a Run button to test
+[INFO ]2024-02-1613:39:57.597[main]utilities.LoggerLoad1)-Title of current page is : Assessment
+[INFO ]2024-02-1613:39:57.598[main]utilities.LoggerLoad1)-The user enter python code with invalid syntax in tryEditor from sheetname :pythonCode and row number : 1
+[INFO ]2024-02-1613:39:57.790[main]utilities.LoggerLoad1)-User clicks on Run button
+[INFO ]2024-02-1613:39:57.794[main]utilities.LoggerLoad1)-Actual Error message is  : NameError: name 'String' is not defined on line 1
+[INFO ]2024-02-1613:39:57.799[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:39:57.799[main]utilities.LoggerLoad1)-[@LinkedList, @LinkedList19] : user navigated to "Traversal" page
+[INFO ]2024-02-1613:39:57.799[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:39:58.067[main]utilities.LoggerLoad1)-The user is on the Linked List page after logged in
+[INFO ]2024-02-1613:39:58.311[main]utilities.LoggerLoad1)-User redirected to the Page Traversal
+[INFO ]2024-02-1613:39:58.315[main]utilities.LoggerLoad1)-Title of current page is checking:Traversal
+[INFO ]2024-02-1613:39:58.319[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:39:58.321[main]utilities.LoggerLoad1)-[@LinkedList, @LinkedList20] : User navigated to tryEditor page with Run button from Traversal page
+[INFO ]2024-02-1613:39:58.321[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:39:58.445[main]utilities.LoggerLoad1)-The user is on the Traversal after logged in
+[INFO ]2024-02-1613:39:58.769[main]utilities.LoggerLoad1)-User redirected to a page having an tryEditor with a Run button to test
+[INFO ]2024-02-1613:39:58.773[main]utilities.LoggerLoad1)-Title of current page is : Assessment
+[INFO ]2024-02-1613:39:58.779[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:39:58.779[main]utilities.LoggerLoad1)-[@LinkedList, @LinkedList21] : The user is able to run code in Editor for linked list page
+[INFO ]2024-02-1613:39:58.779[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:39:58.779[main]utilities.LoggerLoad1)-The user is in a page having an tryEditor with a Run button to test
+[INFO ]2024-02-1613:39:59.077[main]utilities.LoggerLoad1)-Title of current page is : Assessment
+[INFO ]2024-02-1613:39:59.077[main]utilities.LoggerLoad1)-The user enter valid python code in tryEditor from sheetname :pythonCode and row number : 0
+[INFO ]2024-02-1613:39:59.346[main]utilities.LoggerLoad1)-Expected result from Excel sheetname pythonCode and 0 : Hello
+[INFO ]2024-02-1613:39:59.379[main]utilities.LoggerLoad1)-User clicks on Run button
+[INFO ]2024-02-1613:39:59.401[main]utilities.LoggerLoad1)-Actual result  : Hello
+[INFO ]2024-02-1613:39:59.405[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:39:59.405[main]utilities.LoggerLoad1)-[@LinkedList, @LinkedList22] : The user is presented with error message for invalid code in Editor for linked list page
+[INFO ]2024-02-1613:39:59.405[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:39:59.406[main]utilities.LoggerLoad1)-The user is in a page having an tryEditor with a Run button to test
+[INFO ]2024-02-1613:39:59.685[main]utilities.LoggerLoad1)-Title of current page is : Assessment
+[INFO ]2024-02-1613:39:59.686[main]utilities.LoggerLoad1)-The user enter python code with invalid syntax in tryEditor from sheetname :pythonCode and row number : 1
+[INFO ]2024-02-1613:39:59.883[main]utilities.LoggerLoad1)-User clicks on Run button
+[INFO ]2024-02-1613:39:59.887[main]utilities.LoggerLoad1)-Actual Error message is  : NameError: name 'String' is not defined on line 1
+[INFO ]2024-02-1613:39:59.892[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:39:59.892[main]utilities.LoggerLoad1)-[@LinkedList, @LinkedList23] : user navigated to "Insertion" page
+[INFO ]2024-02-1613:39:59.892[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:40:00.159[main]utilities.LoggerLoad1)-The user is on the Linked List page after logged in
+[INFO ]2024-02-1613:40:00.486[main]utilities.LoggerLoad1)-User redirected to the Page Insertion
+[INFO ]2024-02-1613:40:00.489[main]utilities.LoggerLoad1)-Title of current page is checking:Insertion
+[INFO ]2024-02-1613:40:00.494[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:40:00.494[main]utilities.LoggerLoad1)-[@LinkedList, @LinkedList24] : User navigated to tryEditor page with Run button from Insertion page
+[INFO ]2024-02-1613:40:00.494[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:40:00.620[main]utilities.LoggerLoad1)-The user is on the Insertion after logged in
+[INFO ]2024-02-1613:40:00.957[main]utilities.LoggerLoad1)-User redirected to a page having an tryEditor with a Run button to test
+[INFO ]2024-02-1613:40:00.962[main]utilities.LoggerLoad1)-Title of current page is : Assessment
+[INFO ]2024-02-1613:40:00.966[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:40:00.966[main]utilities.LoggerLoad1)-[@LinkedList, @LinkedList25] : The user is able to run code in Editor for linked list page
+[INFO ]2024-02-1613:40:00.967[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:40:00.967[main]utilities.LoggerLoad1)-The user is in a page having an tryEditor with a Run button to test
+[INFO ]2024-02-1613:40:01.255[main]utilities.LoggerLoad1)-Title of current page is : Assessment
+[INFO ]2024-02-1613:40:01.256[main]utilities.LoggerLoad1)-The user enter valid python code in tryEditor from sheetname :pythonCode and row number : 0
+[INFO ]2024-02-1613:40:01.442[main]utilities.LoggerLoad1)-Expected result from Excel sheetname pythonCode and 0 : Hello
+[INFO ]2024-02-1613:40:01.475[main]utilities.LoggerLoad1)-User clicks on Run button
+[INFO ]2024-02-1613:40:01.500[main]utilities.LoggerLoad1)-Actual result  : Hello
+[INFO ]2024-02-1613:40:01.505[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:40:01.505[main]utilities.LoggerLoad1)-[@LinkedList, @LinkedList26] : The user is presented with error message for invalid code in Editor for linked list page
+[INFO ]2024-02-1613:40:01.505[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:40:01.505[main]utilities.LoggerLoad1)-The user is in a page having an tryEditor with a Run button to test
+[INFO ]2024-02-1613:40:01.790[main]utilities.LoggerLoad1)-Title of current page is : Assessment
+[INFO ]2024-02-1613:40:01.790[main]utilities.LoggerLoad1)-The user enter python code with invalid syntax in tryEditor from sheetname :pythonCode and row number : 1
+[INFO ]2024-02-1613:40:01.984[main]utilities.LoggerLoad1)-User clicks on Run button
+[INFO ]2024-02-1613:40:01.990[main]utilities.LoggerLoad1)-Actual Error message is  : NameError: name 'String' is not defined on line 1
+[INFO ]2024-02-1613:40:01.995[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:40:01.995[main]utilities.LoggerLoad1)-[@LinkedList, @LinkedList27] : user navigated to "Deletion" page
+[INFO ]2024-02-1613:40:01.995[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:40:02.262[main]utilities.LoggerLoad1)-The user is on the Linked List page after logged in
+[INFO ]2024-02-1613:40:02.580[main]utilities.LoggerLoad1)-User redirected to the Page Deletion
+[INFO ]2024-02-1613:40:02.588[main]utilities.LoggerLoad1)-Title of current page is checking:Deletion
+[INFO ]2024-02-1613:40:02.592[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:40:02.592[main]utilities.LoggerLoad1)-[@LinkedList, @LinkedList28] : User navigated to tryEditor page with Run button from Deletion page
+[INFO ]2024-02-1613:40:02.592[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:40:02.719[main]utilities.LoggerLoad1)-The user is on the Deletion after logged in
+[INFO ]2024-02-1613:40:03.035[main]utilities.LoggerLoad1)-User redirected to a page having an tryEditor with a Run button to test
+[INFO ]2024-02-1613:40:03.039[main]utilities.LoggerLoad1)-Title of current page is : Assessment
+[INFO ]2024-02-1613:40:03.045[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:40:03.045[main]utilities.LoggerLoad1)-[@LinkedList, @LinkedList29] : The user is able to run code in Editor for linked list page
+[INFO ]2024-02-1613:40:03.045[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:40:03.046[main]utilities.LoggerLoad1)-The user is in a page having an tryEditor with a Run button to test
+[INFO ]2024-02-1613:40:03.355[main]utilities.LoggerLoad1)-Title of current page is : Assessment
+[INFO ]2024-02-1613:40:03.356[main]utilities.LoggerLoad1)-The user enter valid python code in tryEditor from sheetname :pythonCode and row number : 0
+[INFO ]2024-02-1613:40:03.541[main]utilities.LoggerLoad1)-Expected result from Excel sheetname pythonCode and 0 : Hello
+[INFO ]2024-02-1613:40:03.575[main]utilities.LoggerLoad1)-User clicks on Run button
+[INFO ]2024-02-1613:40:03.601[main]utilities.LoggerLoad1)-Actual result  : Hello
+[INFO ]2024-02-1613:40:03.606[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:40:03.606[main]utilities.LoggerLoad1)-[@LinkedList, @LinkedList30] : The user is presented with error message for invalid code in Editor for linked list page
+[INFO ]2024-02-1613:40:03.606[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:40:03.606[main]utilities.LoggerLoad1)-The user is in a page having an tryEditor with a Run button to test
+[INFO ]2024-02-1613:40:03.905[main]utilities.LoggerLoad1)-Title of current page is : Assessment
+[INFO ]2024-02-1613:40:03.906[main]utilities.LoggerLoad1)-The user enter python code with invalid syntax in tryEditor from sheetname :pythonCode and row number : 1
+[INFO ]2024-02-1613:40:04.101[main]utilities.LoggerLoad1)-User clicks on Run button
+[INFO ]2024-02-1613:40:04.104[main]utilities.LoggerLoad1)-Actual Error message is  : NameError: name 'String' is not defined on line 1
+[INFO ]2024-02-1613:40:04.109[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:40:04.109[main]utilities.LoggerLoad1)-[@LinkedList, @LinkedList31] : The user validating "Practice Questions" page
+[INFO ]2024-02-1613:40:04.109[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:40:04.383[main]utilities.LoggerLoad1)-The user is on the Linked List page after logged in
+[INFO ]2024-02-1613:40:04.771[main]utilities.LoggerLoad1)-Title of current page is :Practice Questions
+[INFO ]2024-02-1613:40:04.771[main]utilities.LoggerLoad1)-NO questions found 
+[INFO ]2024-02-1613:40:04.784[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:40:04.784[main]utilities.LoggerLoad1)-[@signin, @signin1] : User login with empty username and valid password
+[INFO ]2024-02-1613:40:04.784[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:40:04.928[main]utilities.LoggerLoad1)-User is on signin page
+[INFO ]2024-02-1613:40:05.111[main]utilities.LoggerLoad1)-User clicks Login with empty username and valid password 
+[INFO ]2024-02-1613:40:05.132[main]utilities.LoggerLoad1)-Error Message dispalys below Username textbox
+[INFO ]2024-02-1613:40:05.141[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:40:05.142[main]utilities.LoggerLoad1)-[@signin, @signin2] : User login with valid username and empty password
+[INFO ]2024-02-1613:40:05.142[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:40:05.264[main]utilities.LoggerLoad1)-User is on signin page
+[INFO ]2024-02-1613:40:05.393[main]utilities.LoggerLoad1)-User clicks Login with valid username and empty password 
+[INFO ]2024-02-1613:40:05.407[main]utilities.LoggerLoad1)-Error Message dispalys below Password textbox
+[INFO ]2024-02-1613:40:05.414[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:40:05.414[main]utilities.LoggerLoad1)-[@signin, @signin3] : User login with invalid username and invalid password
+[INFO ]2024-02-1613:40:05.414[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:40:05.540[main]utilities.LoggerLoad1)-User is on signin page
+[INFO ]2024-02-1613:40:05.839[main]utilities.LoggerLoad1)-User clicks Login with invalid username and password 
+[INFO ]2024-02-1613:40:05.866[main]utilities.LoggerLoad1)-It displays an error message
+[INFO ]2024-02-1613:40:05.876[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:40:05.877[main]utilities.LoggerLoad1)-[@signin, @signin4] : User login with valid username and invalid password
+[INFO ]2024-02-1613:40:05.877[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:40:06.006[main]utilities.LoggerLoad1)-User is on signin page
+[INFO ]2024-02-1613:40:06.296[main]utilities.LoggerLoad1)-User clicks Login with valid username and invalid password 
+[INFO ]2024-02-1613:40:06.360[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:40:06.361[main]utilities.LoggerLoad1)-[@signin, @signin5] : User login with valid username and valid password
+[INFO ]2024-02-1613:40:06.361[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:40:06.493[main]utilities.LoggerLoad1)-User is on signin page
+[INFO ]2024-02-1613:40:06.991[main]utilities.LoggerLoad1)-User clicks Login with valid username and password 
+[INFO ]2024-02-1613:40:07.036[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:40:07.036[main]utilities.LoggerLoad1)-[@signin, @signin6] : Sign-Out scenario
+[INFO ]2024-02-1613:40:07.036[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:40:07.299[main]utilities.LoggerLoad1)-User login using mentioned credentials 
+[INFO ]2024-02-1613:40:07.712[main]utilities.LoggerLoad1)-User clicks on Signout 
+[INFO ]2024-02-1613:40:07.725[main]utilities.LoggerLoad1)-User gets the message as Logged out successfully 
+[INFO ]2024-02-1613:40:07.734[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:40:07.734[main]utilities.LoggerLoad1)-[@Queue, @Queue_S1] : The user is logged in to DS Algo portal
+[INFO ]2024-02-1613:40:07.734[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:40:07.735[main]utilities.LoggerLoad1)-The user is on Signin page of DS Algo portal
+[INFO ]2024-02-1613:40:07.968[main]utilities.LoggerLoad1)-User enters Username and Password
+[INFO ]2024-02-1613:40:07.969[main]utilities.LoggerLoad1)-User clicks on login button
+[INFO ]2024-02-1613:40:08.358[main]utilities.LoggerLoad1)-Title of current page isNumpyNinja
+[INFO ]2024-02-1613:40:08.365[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:40:08.365[main]utilities.LoggerLoad1)-[@Queue, @Queue_S2] : Navigating to Queue page
+[INFO ]2024-02-1613:40:08.365[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:40:08.493[main]utilities.LoggerLoad1)-The user is on the home page after logged in
+[INFO ]2024-02-1613:40:08.726[main]utilities.LoggerLoad1)-User is in Arrays Module
+[INFO ]2024-02-1613:40:08.733[main]utilities.LoggerLoad1)-Title of current page is : Array
+[INFO ]2024-02-1613:40:08.750[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:40:08.751[main]utilities.LoggerLoad1)-[@Queue, @Queue_S3] : The user is navigating to Implementation of Queue in Python page to enter valid code in editor
+[INFO ]2024-02-1613:40:08.751[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:40:08.891[main]utilities.LoggerLoad1)-The user is in Queue
+[INFO ]2024-02-1613:40:09.149[main]utilities.LoggerLoad1)-User clicked on Implementation of Queue in Python Page 
+[INFO ]2024-02-1613:40:09.280[main]utilities.LoggerLoad1)-The user is redirected to Implementation of Queue in Python
+[INFO ]2024-02-1613:40:09.620[main]utilities.LoggerLoad1)-User clicks on try here button
+[INFO ]2024-02-1613:40:09.951[main]utilities.LoggerLoad1)-The user is redirected to Try Editor
+[INFO ]2024-02-1613:40:09.953[main]utilities.LoggerLoad1)-The user enter valid python code in tryEditor from sheetname :pythonCode and row number : 0
+[INFO ]2024-02-1613:40:10.236[main]utilities.LoggerLoad1)-Expected result from Excel sheetname pythonCode and 0 : Hello
+[INFO ]2024-02-1613:40:10.317[main]utilities.LoggerLoad1)-User clicks on Run button
+[INFO ]2024-02-1613:40:10.349[main]utilities.LoggerLoad1)-Actual result  : Hello
+[INFO ]2024-02-1613:40:10.365[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:40:10.365[main]utilities.LoggerLoad1)-[@Queue, @Queue_S4] : The user is presented with error message for invalid code in Editor
+[INFO ]2024-02-1613:40:10.365[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:40:10.365[main]utilities.LoggerLoad1)-The user is in a page having an tryEditor with a Run button to test
+[INFO ]2024-02-1613:40:10.692[main]utilities.LoggerLoad1)-Title of current page is : Assessment
+[INFO ]2024-02-1613:40:10.693[main]utilities.LoggerLoad1)-The user enter python code with invalid syntax in tryEditor from sheetname :pythonCode and row number : 1
+[INFO ]2024-02-1613:40:10.973[main]utilities.LoggerLoad1)-User clicks on Run button
+[INFO ]2024-02-1613:40:10.982[main]utilities.LoggerLoad1)-Actual Error message is  : NameError: name 'String' is not defined on line 1
+[INFO ]2024-02-1613:40:10.988[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:40:10.988[main]utilities.LoggerLoad1)-[@Queue, @Queue_S5] : The user is navigating to Implementation using collections.deque page to enter valid code in editor
+[INFO ]2024-02-1613:40:10.988[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:40:11.128[main]utilities.LoggerLoad1)-The user is in Queue
+[INFO ]2024-02-1613:40:11.403[main]utilities.LoggerLoad1)-User clicked on Implementation using collections deque page 
+[INFO ]2024-02-1613:40:11.532[main]utilities.LoggerLoad1)-The user is redirected to Implementation using collections.deque
+[INFO ]2024-02-1613:40:11.905[main]utilities.LoggerLoad1)-User clicks on try here button
+[INFO ]2024-02-1613:40:12.215[main]utilities.LoggerLoad1)-The user is redirected to Try Editor
+[INFO ]2024-02-1613:40:12.216[main]utilities.LoggerLoad1)-The user enter valid python code in tryEditor from sheetname :pythonCode and row number : 0
+[INFO ]2024-02-1613:40:12.483[main]utilities.LoggerLoad1)-Expected result from Excel sheetname pythonCode and 0 : Hello
+[INFO ]2024-02-1613:40:12.531[main]utilities.LoggerLoad1)-User clicks on Run button
+[INFO ]2024-02-1613:40:12.548[main]utilities.LoggerLoad1)-Actual result  : Hello
+[INFO ]2024-02-1613:40:12.548[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:40:12.548[main]utilities.LoggerLoad1)-[@Queue, @Queue_S6] : The user is presented with error message for invalid code in Editor
+[INFO ]2024-02-1613:40:12.548[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:40:12.548[main]utilities.LoggerLoad1)-The user is in a page having an tryEditor with a Run button to test
+[INFO ]2024-02-1613:40:12.864[main]utilities.LoggerLoad1)-Title of current page is : Assessment
+[INFO ]2024-02-1613:40:12.865[main]utilities.LoggerLoad1)-The user enter python code with invalid syntax in tryEditor from sheetname :pythonCode and row number : 1
+[INFO ]2024-02-1613:40:13.164[main]utilities.LoggerLoad1)-User clicks on Run button
+[INFO ]2024-02-1613:40:13.181[main]utilities.LoggerLoad1)-Actual Error message is  : NameError: name 'String' is not defined on line 1
+[INFO ]2024-02-1613:40:13.196[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:40:13.196[main]utilities.LoggerLoad1)-[@Queue, @Queue_S7] : The user is navigating to Implementation using array page to enter valid code in editor
+[INFO ]2024-02-1613:40:13.196[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:40:13.325[main]utilities.LoggerLoad1)-The user is in Queue
+[INFO ]2024-02-1613:40:13.655[main]utilities.LoggerLoad1)-User clicked on Implementation using array link 
+[INFO ]2024-02-1613:40:13.795[main]utilities.LoggerLoad1)-The user is redirected to Implementation using array
+[INFO ]2024-02-1613:40:14.143[main]utilities.LoggerLoad1)-User clicks on try here button
+[INFO ]2024-02-1613:40:14.438[main]utilities.LoggerLoad1)-The user is redirected to Try Editor
+[INFO ]2024-02-1613:40:14.439[main]utilities.LoggerLoad1)-The user enter valid python code in tryEditor from sheetname :pythonCode and row number : 0
+[INFO ]2024-02-1613:40:14.674[main]utilities.LoggerLoad1)-Expected result from Excel sheetname pythonCode and 0 : Hello
+[INFO ]2024-02-1613:40:14.715[main]utilities.LoggerLoad1)-User clicks on Run button
+[INFO ]2024-02-1613:40:14.745[main]utilities.LoggerLoad1)-Actual result  : Hello
+[INFO ]2024-02-1613:40:14.776[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:40:14.776[main]utilities.LoggerLoad1)-[@Queue, @Queue_S8] : The user is presented with error message for invalid code in Editor
+[INFO ]2024-02-1613:40:14.776[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:40:14.776[main]utilities.LoggerLoad1)-The user is in a page having an tryEditor with a Run button to test
+[INFO ]2024-02-1613:40:15.086[main]utilities.LoggerLoad1)-Title of current page is : Assessment
+[INFO ]2024-02-1613:40:15.086[main]utilities.LoggerLoad1)-The user enter python code with invalid syntax in tryEditor from sheetname :pythonCode and row number : 1
+[INFO ]2024-02-1613:40:15.324[main]utilities.LoggerLoad1)-User clicks on Run button
+[INFO ]2024-02-1613:40:15.335[main]utilities.LoggerLoad1)-Actual Error message is  : NameError: name 'String' is not defined on line 1
+[INFO ]2024-02-1613:40:15.341[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:40:15.341[main]utilities.LoggerLoad1)-[@Queue, @Queue_S9] : The user is navigating to Queue Operations page to enter valid code in editor
+[INFO ]2024-02-1613:40:15.341[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:40:15.490[main]utilities.LoggerLoad1)-The user is in Queue
+[INFO ]2024-02-1613:40:15.772[main]utilities.LoggerLoad1)-User clicked on Queue Operations link
+[INFO ]2024-02-1613:40:15.903[main]utilities.LoggerLoad1)-The user is redirected to Queue Operations
+[INFO ]2024-02-1613:40:16.252[main]utilities.LoggerLoad1)-User clicks on try here button
+[INFO ]2024-02-1613:40:16.558[main]utilities.LoggerLoad1)-The user is redirected to Try Editor
+[INFO ]2024-02-1613:40:16.559[main]utilities.LoggerLoad1)-The user enter valid python code in tryEditor from sheetname :pythonCode and row number : 0
+[INFO ]2024-02-1613:40:16.842[main]utilities.LoggerLoad1)-Expected result from Excel sheetname pythonCode and 0 : Hello
+[INFO ]2024-02-1613:40:16.910[main]utilities.LoggerLoad1)-User clicks on Run button
+[INFO ]2024-02-1613:40:16.945[main]utilities.LoggerLoad1)-Actual result  : Hello
+[INFO ]2024-02-1613:40:16.961[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:40:16.961[main]utilities.LoggerLoad1)-[@Queue, @Queue_S10] : The user is presented with error message for invalid code in Editor
+[INFO ]2024-02-1613:40:16.961[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:40:16.961[main]utilities.LoggerLoad1)-The user is in a page having an tryEditor with a Run button to test
+[INFO ]2024-02-1613:40:17.266[main]utilities.LoggerLoad1)-Title of current page is : Assessment
+[INFO ]2024-02-1613:40:17.267[main]utilities.LoggerLoad1)-The user enter python code with invalid syntax in tryEditor from sheetname :pythonCode and row number : 1
+[INFO ]2024-02-1613:40:17.492[main]utilities.LoggerLoad1)-User clicks on Run button
+[INFO ]2024-02-1613:40:17.501[main]utilities.LoggerLoad1)-Actual Error message is  : NameError: name 'String' is not defined on line 1
+[INFO ]2024-02-1613:40:17.508[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:40:17.508[main]utilities.LoggerLoad1)-[@Queue, @Queue_S11] : The user is able to click and navigate to Practice Questions
+[INFO ]2024-02-1613:40:17.508[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:40:17.667[main]utilities.LoggerLoad1)-The user is in Implementation of Queue in Python
+[INFO ]2024-02-1613:40:17.872[main]utilities.LoggerLoad1)-User clicks on Practice Questions Link
+[INFO ]2024-02-1613:40:17.996[main]utilities.LoggerLoad1)-The user is redirected to Practice Questions Queue
+[INFO ]2024-02-1613:40:18.043[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:40:18.044[main]utilities.LoggerLoad1)-[@register, @register1] : User launch home page of an dsalgo project
+[INFO ]2024-02-1613:40:18.044[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:40:18.238[main]utilities.LoggerLoad1)-User opens DS Algo portal link
+[INFO ]2024-02-1613:40:18.458[main]utilities.LoggerLoad1)-User clicks on Get Started button
+[INFO ]2024-02-1613:40:18.464[main]utilities.LoggerLoad1)-User is redirected to homepage
+[INFO ]2024-02-1613:40:18.477[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:40:18.477[main]utilities.LoggerLoad1)-[@register, @register2] : The user gets error message for empty fields into Username textbox
+[INFO ]2024-02-1613:40:18.477[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:40:18.700[main]utilities.LoggerLoad1)-User clicks on Registration Button
+[INFO ]2024-02-1613:40:18.714[main]utilities.LoggerLoad1)-Error Message dispalys below Username textbox
+[INFO ]2024-02-1613:40:18.735[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:40:18.735[main]utilities.LoggerLoad1)-[@register, @register3] : The user gets error message for empty fields into Password textbox
+[INFO ]2024-02-1613:40:18.735[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:40:18.979[main]utilities.LoggerLoad1)-User Enters data from datatable and clicks on Registration Button
+[INFO ]2024-02-1613:40:18.998[main]utilities.LoggerLoad1)-Error Message dispalys below Password textbox
+[INFO ]2024-02-1613:40:19.020[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:40:19.020[main]utilities.LoggerLoad1)-[@register, @register4] : The user gets error message for empty fields into confirm Password textbox
+[INFO ]2024-02-1613:40:19.020[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:40:19.309[main]utilities.LoggerLoad1)-User Enters data from datatable and clicks on Registration Button
+[INFO ]2024-02-1613:40:19.326[main]utilities.LoggerLoad1)-Error Message dispalys below Password textbox
+[INFO ]2024-02-1613:40:19.340[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:40:19.340[main]utilities.LoggerLoad1)-[@register, @register5] : The user gets error message for invalid username
+[INFO ]2024-02-1613:40:19.340[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:40:19.864[main]utilities.LoggerLoad1)-User Enters data from datatable and clicks on Registration Button
+[INFO ]2024-02-1613:40:19.901[main]utilities.LoggerLoad1)-It displays and Error Message
+[INFO ]2024-02-1613:40:19.915[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:40:19.915[main]utilities.LoggerLoad1)-[@register, @register6] : The user gets error message for password mismatch
+[INFO ]2024-02-1613:40:19.915[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:40:20.431[main]utilities.LoggerLoad1)-User Enters valid username and password from datatable and clicks on Registration Button
+[INFO ]2024-02-1613:40:20.477[main]utilities.LoggerLoad1)-It displays and Error Message
+[INFO ]2024-02-1613:40:20.490[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:40:20.490[main]utilities.LoggerLoad1)-[@register, @register7] : The user gets error message for password with characters less than eight
+[INFO ]2024-02-1613:40:20.490[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:40:20.978[main]utilities.LoggerLoad1)-User Enters valid username and less characters password from datatable and clicks on Registration Button
+[INFO ]2024-02-1613:40:21.029[main]utilities.LoggerLoad1)-It displays and Error Message
+[INFO ]2024-02-1613:40:21.043[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:40:21.043[main]utilities.LoggerLoad1)-[@register, @register8] : The user gets error message for password with only numbers
+[INFO ]2024-02-1613:40:21.043[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:40:21.572[main]utilities.LoggerLoad1)-User Enters data from datatable and clicks on Registration Button
+[INFO ]2024-02-1613:40:21.594[main]utilities.LoggerLoad1)-It displays and Error Message
+[INFO ]2024-02-1613:40:21.605[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:40:21.605[main]utilities.LoggerLoad1)-[@register, @register9] : The user gets error message for password too similar to your other personal information
+[INFO ]2024-02-1613:40:21.605[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:40:22.138[main]utilities.LoggerLoad1)-User Enters data from datatable and clicks on Registration Button
+[INFO ]2024-02-1613:40:22.168[main]utilities.LoggerLoad1)-It displays and Error Message
+[INFO ]2024-02-1613:40:22.181[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:40:22.181[main]utilities.LoggerLoad1)-[@register, @register10] : The user gets error message for commonly used password
+[INFO ]2024-02-1613:40:22.181[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:40:22.670[main]utilities.LoggerLoad1)-User Enters data from datatable and clicks on Registration Button
+[INFO ]2024-02-1613:40:22.716[main]utilities.LoggerLoad1)-It displays and Error Message
+[INFO ]2024-02-1613:40:22.733[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:40:22.733[main]utilities.LoggerLoad1)-[@register, @register11] : The user redirected to Homepage with valid details
+[INFO ]2024-02-1613:40:22.733[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:40:23.261[main]utilities.LoggerLoad1)-User Enters data from datatable and clicks on Registration Button
+[INFO ]2024-02-1613:40:23.316[main]utilities.LoggerLoad1)-User redirected to Homepage with the message - New Account Created. You are logged in as your username
+[INFO ]2024-02-1613:40:23.337[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:40:23.337[main]utilities.LoggerLoad1)-[@register, @register12] : The user gets error message for existing username
+[INFO ]2024-02-1613:40:23.337[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:40:23.894[main]utilities.LoggerLoad1)-It should display an error message as Username already exists
+[ERROR]2024-02-1613:40:23.921[main]utilities.LoggerLoad1)-Steps Failed , Taking Screenshot
+[INFO ]2024-02-1613:40:24.143[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:40:24.146[main]utilities.LoggerLoad1)-[@Stack, @Stack_S1] : The user is logged in to DS Algo portal
+[INFO ]2024-02-1613:40:24.146[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:40:24.146[main]utilities.LoggerLoad1)-The user is on Signin page of DS Algo portal
+[INFO ]2024-02-1613:40:24.418[main]utilities.LoggerLoad1)-User enters Username and Password
+[INFO ]2024-02-1613:40:24.418[main]utilities.LoggerLoad1)-User clicks on login button
+[INFO ]2024-02-1613:40:24.802[main]utilities.LoggerLoad1)-Title of current page isNumpyNinja
+[INFO ]2024-02-1613:40:24.811[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:40:24.811[main]utilities.LoggerLoad1)-[@Stack, @Stack_S2] : The user is directed to "Stack" Page
+[INFO ]2024-02-1613:40:24.811[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:40:24.943[main]utilities.LoggerLoad1)-The user is on the home page after logged in
+[INFO ]2024-02-1613:40:25.133[main]utilities.LoggerLoad1)-User select Stack from Data Structure dropdown 
+[INFO ]2024-02-1613:40:25.134[main]utilities.LoggerLoad1)-User redirected to Stack Data Structure Page 
+[INFO ]2024-02-1613:40:25.145[main]utilities.LoggerLoad1)-Title of current page is : Stack
+[INFO ]2024-02-1613:40:25.157[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:40:25.157[main]utilities.LoggerLoad1)-[@Stack, @Stack_S3] : The user is able to navigate to "Operations in Stack" page
+[INFO ]2024-02-1613:40:25.157[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:40:25.282[main]utilities.LoggerLoad1)-The user is on the Stack page after logged in
+[INFO ]2024-02-1613:40:25.725[main]utilities.LoggerLoad1)-User redirected to Stack DataStructure Page 
+[INFO ]2024-02-1613:40:25.736[main]utilities.LoggerLoad1)-Title of current page is :Operations in Stack
+[INFO ]2024-02-1613:40:25.746[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:40:25.746[main]utilities.LoggerLoad1)-[@Stack, @Stack_S4] : The user is navigating to a page having tryEditor from Operations in Stack page to enter valid code
+[INFO ]2024-02-1613:40:25.746[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:40:25.879[main]utilities.LoggerLoad1)-The user is on the Operations in Stack page after logged in
+[INFO ]2024-02-1613:40:26.256[main]utilities.LoggerLoad1)-User clicked on Try here Button
+[INFO ]2024-02-1613:40:26.268[main]utilities.LoggerLoad1)-User redirected to a page having an tryEditor with a Run button to test
+[INFO ]2024-02-1613:40:26.281[main]utilities.LoggerLoad1)-Title of current page is : Assessment
+[INFO ]2024-02-1613:40:26.284[main]utilities.LoggerLoad1)-The user enter valid python code in tryEditor from sheetname :pythonCode and row number : 0
+[INFO ]2024-02-1613:40:26.530[main]utilities.LoggerLoad1)-Expected result from Excel sheetname pythonCode and 0 : Hello
+[INFO ]2024-02-1613:40:26.577[main]utilities.LoggerLoad1)-User clicks on Run button
+[INFO ]2024-02-1613:40:26.614[main]utilities.LoggerLoad1)-Actual result  : Hello
+[INFO ]2024-02-1613:40:26.626[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:40:26.626[main]utilities.LoggerLoad1)-[@Stack, @Stack_S5] : The user is presented with error message for invalid code in Editor
+[INFO ]2024-02-1613:40:26.626[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:40:26.626[main]utilities.LoggerLoad1)-The user is in a page having an tryEditor with a Run button to test
+[INFO ]2024-02-1613:40:26.939[main]utilities.LoggerLoad1)-Title of current page is : Assessment
+[INFO ]2024-02-1613:40:26.941[main]utilities.LoggerLoad1)-The user enter python code with invalid syntax in tryEditor from sheetname :pythonCode and row number : 1
+[INFO ]2024-02-1613:40:27.194[main]utilities.LoggerLoad1)-User clicks on Run button
+[INFO ]2024-02-1613:40:27.208[main]utilities.LoggerLoad1)-Actual Error message is  : NameError: name 'String' is not defined on line 1
+[INFO ]2024-02-1613:40:27.211[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:40:27.211[main]utilities.LoggerLoad1)-[@Stack, @Stack_S6] : The user is able to navigate to "Implementation" Page
+[INFO ]2024-02-1613:40:27.211[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:40:27.381[main]utilities.LoggerLoad1)-The user is on the Stack page after logged in
+[INFO ]2024-02-1613:40:27.692[main]utilities.LoggerLoad1)-User redirected to Stack Implementation Page 
+[INFO ]2024-02-1613:40:27.699[main]utilities.LoggerLoad1)-Title of current page is :Implementation
+[INFO ]2024-02-1613:40:27.711[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:40:27.711[main]utilities.LoggerLoad1)-[@Stack, @Stack_S7] : The user is navigating to Implementation page having an tryEditor to run valid code
+[INFO ]2024-02-1613:40:27.711[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:40:27.825[main]utilities.LoggerLoad1)-The user is on the Stack Implementation page after logged in
+[INFO ]2024-02-1613:40:28.179[main]utilities.LoggerLoad1)-User clicked on Try here Button
+[INFO ]2024-02-1613:40:28.180[main]utilities.LoggerLoad1)-User redirected to a page having an tryEditor with a Run button to test
+[INFO ]2024-02-1613:40:28.189[main]utilities.LoggerLoad1)-Title of current page is : Assessment
+[INFO ]2024-02-1613:40:28.194[main]utilities.LoggerLoad1)-The user enter valid python code in tryEditor from sheetname :pythonCode and row number : 0
+[INFO ]2024-02-1613:40:28.477[main]utilities.LoggerLoad1)-Expected result from Excel sheetname pythonCode and 0 : Hello
+[INFO ]2024-02-1613:40:28.541[main]utilities.LoggerLoad1)-User clicks on Run button
+[INFO ]2024-02-1613:40:28.559[main]utilities.LoggerLoad1)-Actual result  : Hello
+[INFO ]2024-02-1613:40:28.566[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:40:28.566[main]utilities.LoggerLoad1)-[@Stack, @Stack_S8] : The user is presented with error message for invalid code in Editor for Graph page
+[INFO ]2024-02-1613:40:28.566[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:40:28.566[main]utilities.LoggerLoad1)-The user is in a page having an tryEditor with a Run button to test
+[INFO ]2024-02-1613:40:28.892[main]utilities.LoggerLoad1)-Title of current page is : Assessment
+[INFO ]2024-02-1613:40:28.893[main]utilities.LoggerLoad1)-The user enter python code with invalid syntax in tryEditor from sheetname :pythonCode and row number : 1
+[INFO ]2024-02-1613:40:29.190[main]utilities.LoggerLoad1)-User clicks on Run button
+[INFO ]2024-02-1613:40:29.201[main]utilities.LoggerLoad1)-Actual Error message is  : NameError: name 'String' is not defined on line 1
+[INFO ]2024-02-1613:40:29.211[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:40:29.211[main]utilities.LoggerLoad1)-[@Stack, @Stack_S9] : The user is able to navigate to "Applications" in stack Page
+[INFO ]2024-02-1613:40:29.211[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:40:29.346[main]utilities.LoggerLoad1)-The user is on the Stackpage after logged in
+[INFO ]2024-02-1613:40:29.601[main]utilities.LoggerLoad1)-User redirected to Stack Applications Page 
+[INFO ]2024-02-1613:40:29.616[main]utilities.LoggerLoad1)-Title of current page is :Applications
+[INFO ]2024-02-1613:40:29.628[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:40:29.629[main]utilities.LoggerLoad1)-[@Stack, @Stack_S10] : The user is navigating to Applications page having an tryEditor to run valid code
+[INFO ]2024-02-1613:40:29.629[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:40:29.773[main]utilities.LoggerLoad1)-The user is on the Application stack page after logged in
+[INFO ]2024-02-1613:40:30.126[main]utilities.LoggerLoad1)-User clicked on Try here Button
+[INFO ]2024-02-1613:40:30.128[main]utilities.LoggerLoad1)-User redirected to a page having an tryEditor with a Run button to test
+[INFO ]2024-02-1613:40:30.146[main]utilities.LoggerLoad1)-Title of current page is : Assessment
+[INFO ]2024-02-1613:40:30.148[main]utilities.LoggerLoad1)-The user enter valid python code in tryEditor from sheetname :pythonCode and row number : 0
+[INFO ]2024-02-1613:40:30.429[main]utilities.LoggerLoad1)-Expected result from Excel sheetname pythonCode and 0 : Hello
+[INFO ]2024-02-1613:40:30.526[main]utilities.LoggerLoad1)-User clicks on Run button
+[INFO ]2024-02-1613:40:30.546[main]utilities.LoggerLoad1)-Actual result  : Hello
+[INFO ]2024-02-1613:40:30.554[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:40:30.554[main]utilities.LoggerLoad1)-[@Stack, @Stack_S11] : The user is presented with error message for invalid code in Editor for Graph page
+[INFO ]2024-02-1613:40:30.554[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:40:30.554[main]utilities.LoggerLoad1)-The user is in a page having an tryEditor with a Run button to test
+[INFO ]2024-02-1613:40:30.848[main]utilities.LoggerLoad1)-Title of current page is : Assessment
+[INFO ]2024-02-1613:40:30.849[main]utilities.LoggerLoad1)-The user enter python code with invalid syntax in tryEditor from sheetname :pythonCode and row number : 1
+[INFO ]2024-02-1613:40:31.175[main]utilities.LoggerLoad1)-User clicks on Run button
+[INFO ]2024-02-1613:40:31.184[main]utilities.LoggerLoad1)-Actual Error message is  : NameError: name 'String' is not defined on line 1
+[INFO ]2024-02-1613:40:31.196[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:40:31.196[main]utilities.LoggerLoad1)-[@Stack, @Stack_S12] : The user is able to navigate to "Practice Questions" in stack Page
+[INFO ]2024-02-1613:40:31.196[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:40:31.335[main]utilities.LoggerLoad1)-The user is on the Stack page after logged in
+[INFO ]2024-02-1613:40:31.697[main]utilities.LoggerLoad1)-User redirected to Practice Questions  Page 
+[INFO ]2024-02-1613:40:31.711[main]utilities.LoggerLoad1)-Title of current page is :Practice Questions
+[INFO ]2024-02-1613:40:31.711[main]utilities.LoggerLoad1)-NO questions found 
+[INFO ]2024-02-1613:40:31.753[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:40:31.753[main]utilities.LoggerLoad1)-[@Tree, @Tree_S1] : The user is logged in to DS Algo portal
+[INFO ]2024-02-1613:40:31.753[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:40:31.753[main]utilities.LoggerLoad1)-The user is on Signin page of DS Algo portal
+[INFO ]2024-02-1613:40:32.058[main]utilities.LoggerLoad1)-User enters Username and Password
+[INFO ]2024-02-1613:40:32.058[main]utilities.LoggerLoad1)-User clicks on login button
+[INFO ]2024-02-1613:40:32.460[main]utilities.LoggerLoad1)-Title of current page isNumpyNinja
+[INFO ]2024-02-1613:40:32.468[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:40:32.468[main]utilities.LoggerLoad1)-[@Tree, @Tree_S2] : The user is directed to "Tree" Page
+[INFO ]2024-02-1613:40:32.468[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:40:32.601[main]utilities.LoggerLoad1)-The user is on the home page after logged in
+[INFO ]2024-02-1613:40:33.896[main]utilities.LoggerLoad1)-User is in the tree page
+[INFO ]2024-02-1613:40:33.896[main]utilities.LoggerLoad1)-User redirected to Tree Data Structure Page 
+[INFO ]2024-02-1613:40:33.896[main]utilities.LoggerLoad1)-Title of current page is : Tree
+[INFO ]2024-02-1613:40:33.911[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:40:33.911[main]utilities.LoggerLoad1)-[@Tree, @Tree_S3] : The user is able to navigate to "Overview of Trees" page
+[INFO ]2024-02-1613:40:33.911[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:40:34.176[main]utilities.LoggerLoad1)-The user is on the Tree page after logged in
+[INFO ]2024-02-1613:40:34.198[main]utilities.LoggerLoad1)-click Overview of Trees On the Trees page
+[INFO ]2024-02-1613:40:34.585[main]utilities.LoggerLoad1)- Title of the pageOverview of Trees
+[INFO ]2024-02-1613:40:34.585[main]utilities.LoggerLoad1)-User clicked on the overview of Trees link
+[INFO ]2024-02-1613:40:34.590[main]utilities.LoggerLoad1)-Title of current page is : Overview of Trees
+[INFO ]2024-02-1613:40:34.602[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:40:34.602[main]utilities.LoggerLoad1)-[@Tree, @Tree_S4] : The user is able to navigate to a page having an tryEditor from Overview of Trees page
+[INFO ]2024-02-1613:40:34.602[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:40:34.728[main]utilities.LoggerLoad1)-The user is on the overview of trees after logged in
+[INFO ]2024-02-1613:40:35.059[main]utilities.LoggerLoad1)-User clicks Try here Button
+[INFO ]2024-02-1613:40:35.065[main]utilities.LoggerLoad1)-Title of current page is :Assessment
+[INFO ]2024-02-1613:40:35.074[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:40:35.074[main]utilities.LoggerLoad1)-[@Tree, @Tree_S5] : The user is able to run code in Editor for tree page
+[INFO ]2024-02-1613:40:35.074[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:40:35.076[main]utilities.LoggerLoad1)-The user is in a page having an tryEditor with a Run button to test
+[INFO ]2024-02-1613:40:35.396[main]utilities.LoggerLoad1)-Title of current page is : Assessment
+[INFO ]2024-02-1613:40:35.398[main]utilities.LoggerLoad1)-The user enter valid python code in tryEditor from sheetname :pythonCode and row number : 0
+[INFO ]2024-02-1613:40:35.682[main]utilities.LoggerLoad1)-Expected result from Excel sheetname pythonCode and 0 : Hello
+[INFO ]2024-02-1613:40:35.742[main]utilities.LoggerLoad1)-User clicks on Run button
+[INFO ]2024-02-1613:40:35.759[main]utilities.LoggerLoad1)-Actual result  : Hello
+[INFO ]2024-02-1613:40:35.773[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:40:35.773[main]utilities.LoggerLoad1)-[@Tree, @Tree_S6] : The user is presented with error message for invalid code in Editor for tree page
+[INFO ]2024-02-1613:40:35.773[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:40:35.773[main]utilities.LoggerLoad1)-The user is in a page having an tryEditor with a Run button to test
+[INFO ]2024-02-1613:40:36.082[main]utilities.LoggerLoad1)-Title of current page is : Assessment
+[INFO ]2024-02-1613:40:36.083[main]utilities.LoggerLoad1)-The user enter python code with invalid syntax in tryEditor from sheetname :pythonCode and row number : 1
+[INFO ]2024-02-1613:40:36.372[main]utilities.LoggerLoad1)-User clicks on Run button
+[INFO ]2024-02-1613:40:36.380[main]utilities.LoggerLoad1)-Actual Error message is  : NameError: name 'String' is not defined on line 1
+[INFO ]2024-02-1613:40:36.389[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:40:36.389[main]utilities.LoggerLoad1)-[@Tree, @Tree_S7] : The user is able to navigate to "Terminologies" Page
+[INFO ]2024-02-1613:40:36.389[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:40:36.662[main]utilities.LoggerLoad1)-The user is on the Tree page after logged in
+[INFO ]2024-02-1613:40:36.689[main]utilities.LoggerLoad1)-click Terminologies On the tree page
+[INFO ]2024-02-1613:40:36.967[main]utilities.LoggerLoad1)- Title of the page Terminologies
+[INFO ]2024-02-1613:40:36.967[main]utilities.LoggerLoad1)-User clicked on the Terminologies link
+[INFO ]2024-02-1613:40:36.974[main]utilities.LoggerLoad1)-Title of current page is : Terminologies
+[INFO ]2024-02-1613:40:36.984[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:40:36.985[main]utilities.LoggerLoad1)-[@Tree, @Tree_S8] : The user is able to navigate to Terminologies page having an tryEditor
+[INFO ]2024-02-1613:40:36.985[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:40:37.127[main]utilities.LoggerLoad1)-The user is on the terminologies page after logged in
+[INFO ]2024-02-1613:40:37.481[main]utilities.LoggerLoad1)-User clicks Try here Button
+[INFO ]2024-02-1613:40:37.485[main]utilities.LoggerLoad1)-User redirected to a page having an tryEditor with a Run button to test
+[INFO ]2024-02-1613:40:37.499[main]utilities.LoggerLoad1)-Title of current page is : Assessment
+[INFO ]2024-02-1613:40:37.512[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:40:37.513[main]utilities.LoggerLoad1)-[@Tree, @Tree_S9] : The user is able to run code in Editor for tree page
+[INFO ]2024-02-1613:40:37.513[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:40:37.514[main]utilities.LoggerLoad1)-The user is in a page having an tryEditor with a Run button to test
+[INFO ]2024-02-1613:40:37.844[main]utilities.LoggerLoad1)-Title of current page is : Assessment
+[INFO ]2024-02-1613:40:37.845[main]utilities.LoggerLoad1)-The user enter valid python code in tryEditor from sheetname :pythonCode and row number : 0
+[INFO ]2024-02-1613:40:38.126[main]utilities.LoggerLoad1)-Expected result from Excel sheetname pythonCode and 0 : Hello
+[INFO ]2024-02-1613:40:38.185[main]utilities.LoggerLoad1)-User clicks on Run button
+[INFO ]2024-02-1613:40:38.208[main]utilities.LoggerLoad1)-Actual result  : Hello
+[INFO ]2024-02-1613:40:38.216[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:40:38.216[main]utilities.LoggerLoad1)-[@Tree, @Tree_S10] : The user is presented with error message for invalid code in Editor for tree page
+[INFO ]2024-02-1613:40:38.216[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:40:38.216[main]utilities.LoggerLoad1)-The user is in a page having an tryEditor with a Run button to test
+[INFO ]2024-02-1613:40:38.523[main]utilities.LoggerLoad1)-Title of current page is : Assessment
+[INFO ]2024-02-1613:40:38.525[main]utilities.LoggerLoad1)-The user enter python code with invalid syntax in tryEditor from sheetname :pythonCode and row number : 1
+[INFO ]2024-02-1613:40:38.780[main]utilities.LoggerLoad1)-User clicks on Run button
+[INFO ]2024-02-1613:40:38.788[main]utilities.LoggerLoad1)-Actual Error message is  : NameError: name 'String' is not defined on line 1
+[INFO ]2024-02-1613:40:38.799[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:40:38.799[main]utilities.LoggerLoad1)-[@Tree, @Tree_S11] : The user is able to navigate to "Types of Trees" Page
+[INFO ]2024-02-1613:40:38.799[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:40:39.070[main]utilities.LoggerLoad1)-The user is on the Tree page after logged in
+[INFO ]2024-02-1613:40:39.084[main]utilities.LoggerLoad1)-click Types of Trees On the tree page
+[INFO ]2024-02-1613:40:39.372[main]utilities.LoggerLoad1)- Title of the page Types of Trees
+[INFO ]2024-02-1613:40:39.372[main]utilities.LoggerLoad1)-User clicked on the Types of Trees link
+[INFO ]2024-02-1613:40:39.380[main]utilities.LoggerLoad1)-Title of current page is : Types of Trees
+[INFO ]2024-02-1613:40:39.390[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:40:39.391[main]utilities.LoggerLoad1)-[@Tree, @Tree_S12] : The user is able to navigate to a page having an tryEditor from Types of Trees page
+[INFO ]2024-02-1613:40:39.391[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:40:39.522[main]utilities.LoggerLoad1)-The user is on the types of trees after logged in
+[INFO ]2024-02-1613:40:39.888[main]utilities.LoggerLoad1)-User clicks Try here Button
+[INFO ]2024-02-1613:40:39.889[main]utilities.LoggerLoad1)-User redirected to a page having an tryEditor with a Run button to test
+[INFO ]2024-02-1613:40:39.893[main]utilities.LoggerLoad1)-Title of current page is : Assessment
+[INFO ]2024-02-1613:40:39.903[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:40:39.903[main]utilities.LoggerLoad1)-[@Tree, @Tree_S13] : The user is able to run code in Editor for tree page
+[INFO ]2024-02-1613:40:39.903[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:40:39.904[main]utilities.LoggerLoad1)-The user is in a page having an tryEditor with a Run button to test
+[INFO ]2024-02-1613:40:40.211[main]utilities.LoggerLoad1)-Title of current page is : Assessment
+[INFO ]2024-02-1613:40:40.212[main]utilities.LoggerLoad1)-The user enter valid python code in tryEditor from sheetname :pythonCode and row number : 0
+[INFO ]2024-02-1613:40:40.472[main]utilities.LoggerLoad1)-Expected result from Excel sheetname pythonCode and 0 : Hello
+[INFO ]2024-02-1613:40:40.668[main]utilities.LoggerLoad1)-User clicks on Run button
+[INFO ]2024-02-1613:40:40.719[main]utilities.LoggerLoad1)-Actual result  : Hello
+[INFO ]2024-02-1613:40:40.735[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:40:40.735[main]utilities.LoggerLoad1)-[@Tree, @Tree_S14] : The user is presented with error message for invalid code in Editor for tree page
+[INFO ]2024-02-1613:40:40.735[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:40:40.735[main]utilities.LoggerLoad1)-The user is in a page having an tryEditor with a Run button to test
+[INFO ]2024-02-1613:40:41.043[main]utilities.LoggerLoad1)-Title of current page is : Assessment
+[INFO ]2024-02-1613:40:41.044[main]utilities.LoggerLoad1)-The user enter python code with invalid syntax in tryEditor from sheetname :pythonCode and row number : 1
+[INFO ]2024-02-1613:40:41.302[main]utilities.LoggerLoad1)-User clicks on Run button
+[INFO ]2024-02-1613:40:41.313[main]utilities.LoggerLoad1)-Actual Error message is  : NameError: name 'String' is not defined on line 1
+[INFO ]2024-02-1613:40:41.327[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:40:41.327[main]utilities.LoggerLoad1)-[@Tree, @Tree_S15] : The user is able to navigate to "Tree Traversals" Page
+[INFO ]2024-02-1613:40:41.327[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:40:41.605[main]utilities.LoggerLoad1)-The user is on the Tree page after logged in
+[INFO ]2024-02-1613:40:41.626[main]utilities.LoggerLoad1)-click Tree Traversals On the tree page
+[INFO ]2024-02-1613:40:41.992[main]utilities.LoggerLoad1)- Title of the page Tree Traversals
+[INFO ]2024-02-1613:40:41.992[main]utilities.LoggerLoad1)-User clicked on the Trees Traversals link
+[INFO ]2024-02-1613:40:41.998[main]utilities.LoggerLoad1)-Title of current page is : Tree Traversals
+[INFO ]2024-02-1613:40:42.007[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:40:42.008[main]utilities.LoggerLoad1)-[@Tree, @Tree_S16] : The user is able to navigate to "Traversals illustration" Page
+[INFO ]2024-02-1613:40:42.008[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:40:42.157[main]utilities.LoggerLoad1)-The user is on the Tree page after logged in
+[INFO ]2024-02-1613:40:42.180[main]utilities.LoggerLoad1)-click Traversals-Illustration On the tree page
+[INFO ]2024-02-1613:40:42.544[main]utilities.LoggerLoad1)- Title of the page Traversals-Illustration
+[INFO ]2024-02-1613:40:42.544[main]utilities.LoggerLoad1)-User clicked on the Traversals Illustration link
+[INFO ]2024-02-1613:40:42.552[main]utilities.LoggerLoad1)-Title of current page is : Traversals-Illustration
+[INFO ]2024-02-1613:40:42.563[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:40:42.563[main]utilities.LoggerLoad1)-[@Tree, @Tree_S17] : The user is able to navigate to "Binary trees" Page
+[INFO ]2024-02-1613:40:42.563[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:40:42.732[main]utilities.LoggerLoad1)-The user is on the Tree page after logged in
+[INFO ]2024-02-1613:40:42.756[main]utilities.LoggerLoad1)-click Binary Trees On the tree page
+[INFO ]2024-02-1613:40:43.121[main]utilities.LoggerLoad1)- Title of the page Binary Trees
+[INFO ]2024-02-1613:40:43.122[main]utilities.LoggerLoad1)-User clicked on the Binary Trees link
+[INFO ]2024-02-1613:40:43.127[main]utilities.LoggerLoad1)-Title of current page is : Binary Trees
+[INFO ]2024-02-1613:40:43.139[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:40:43.139[main]utilities.LoggerLoad1)-[@Tree, @Tree_S18] : The user is able to navigate to "Types of Binary trees" Page
+[INFO ]2024-02-1613:40:43.139[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:40:43.281[main]utilities.LoggerLoad1)-The user is on the Tree page after logged in
+[INFO ]2024-02-1613:40:43.299[main]utilities.LoggerLoad1)-click Types of Binary Trees On the tree page
+[INFO ]2024-02-1613:40:43.952[main]utilities.LoggerLoad1)- Title of the page Types of Binary Trees
+[INFO ]2024-02-1613:40:43.953[main]utilities.LoggerLoad1)-User clicked on the Binary Trees link
+[INFO ]2024-02-1613:40:43.956[main]utilities.LoggerLoad1)-Title of current page is : Types of Binary Trees
+[INFO ]2024-02-1613:40:43.973[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:40:43.973[main]utilities.LoggerLoad1)-[@Tree, @Tree_S19] : The user is able to navigate to Implementation in Python Page
+[INFO ]2024-02-1613:40:43.973[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:40:44.124[main]utilities.LoggerLoad1)-The user is on the Tree page after logged in
+[INFO ]2024-02-1613:40:44.142[main]utilities.LoggerLoad1)-click Implementation in Python On the tree page
+[INFO ]2024-02-1613:40:44.402[main]utilities.LoggerLoad1)- Title of the page Implementation in Python
+[INFO ]2024-02-1613:40:44.402[main]utilities.LoggerLoad1)-User clicked on the Implementation in Python link
+[INFO ]2024-02-1613:40:44.423[main]utilities.LoggerLoad1)-Title of current page is : Implementation in Python
+[INFO ]2024-02-1613:40:44.441[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:40:44.441[main]utilities.LoggerLoad1)-[@Tree, @Tree_S20] : The user is able to navigate to binary tree traversals Page
+[INFO ]2024-02-1613:40:44.442[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:40:44.593[main]utilities.LoggerLoad1)-The user is on the Tree page after logged in
+[INFO ]2024-02-1613:40:44.620[main]utilities.LoggerLoad1)-click Binary Tree Traversals On the tree page
+[INFO ]2024-02-1613:40:44.995[main]utilities.LoggerLoad1)- Title of the page Binary Tree Traversals
+[INFO ]2024-02-1613:40:44.996[main]utilities.LoggerLoad1)-User clicked on the Binary Trees Traversals link
+[INFO ]2024-02-1613:40:45.009[main]utilities.LoggerLoad1)-Title of current page is : Binary Tree Traversals
+[INFO ]2024-02-1613:40:45.024[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:40:45.024[main]utilities.LoggerLoad1)-[@Tree, @Tree_S21] : The user is able to navigate to Implementation of Binary Trees Page
+[INFO ]2024-02-1613:40:45.024[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:40:45.192[main]utilities.LoggerLoad1)-The user is on the Tree page after logged in
+[INFO ]2024-02-1613:40:45.228[main]utilities.LoggerLoad1)-click Implementation of Binary Trees On the tree page
+[INFO ]2024-02-1613:40:45.507[main]utilities.LoggerLoad1)- Title of the page Implementation of Binary Trees
+[INFO ]2024-02-1613:40:45.508[main]utilities.LoggerLoad1)-User clicked on the Implementation of Binary Trees link
+[INFO ]2024-02-1613:40:45.517[main]utilities.LoggerLoad1)-Title of current page is : Implementation of Binary Trees
+[INFO ]2024-02-1613:40:45.529[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:40:45.529[main]utilities.LoggerLoad1)-[@Tree, @Tree_S22] : The user is able to navigate to Applications of Binary Trees Page
+[INFO ]2024-02-1613:40:45.529[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:40:45.686[main]utilities.LoggerLoad1)-The user is on the Tree page after logged in
+[INFO ]2024-02-1613:40:45.708[main]utilities.LoggerLoad1)-click Applications of Binary trees On the tree page
+[INFO ]2024-02-1613:40:45.985[main]utilities.LoggerLoad1)- Title of the page Applications of Binary trees
+[INFO ]2024-02-1613:40:45.985[main]utilities.LoggerLoad1)-User clicked on the Applications Binary Trees link
+[INFO ]2024-02-1613:40:45.996[main]utilities.LoggerLoad1)-Title of current page is : Applications of Binary trees
+[INFO ]2024-02-1613:40:46.009[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:40:46.010[main]utilities.LoggerLoad1)-[@Tree, @Tree_S23] : The user is able to navigate to a page having an tryEditor from Binary Search Trees Page
+[INFO ]2024-02-1613:40:46.010[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:40:46.426[main]utilities.LoggerLoad1)-The user is on the Binary Search Trees after logged in
+[INFO ]2024-02-1613:40:46.775[main]utilities.LoggerLoad1)-User clicks Try here Button
+[INFO ]2024-02-1613:40:46.781[main]utilities.LoggerLoad1)-User redirected to a page having an tryEditor with a Run button to test
+[INFO ]2024-02-1613:40:46.796[main]utilities.LoggerLoad1)-Title of current page is : Assessment
+[INFO ]2024-02-1613:40:46.816[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:40:46.817[main]utilities.LoggerLoad1)-[@Tree, @Tree_S24] : The user is able to navigate to "Implementation of BST" Page
+[INFO ]2024-02-1613:40:46.818[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:40:47.099[main]utilities.LoggerLoad1)-The user is on the Tree page after logged in
+[INFO ]2024-02-1613:40:47.128[main]utilities.LoggerLoad1)-click Implementation Of BST On the tree page
+[INFO ]2024-02-1613:40:47.401[main]utilities.LoggerLoad1)- Title of the page Implementation Of BST
+[INFO ]2024-02-1613:40:47.401[main]utilities.LoggerLoad1)-User clicked on the Implementation of BST link 
+[INFO ]2024-02-1613:40:47.408[main]utilities.LoggerLoad1)-Title of current page is : Implementation Of BST
+[INFO ]2024-02-1613:40:47.419[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1613:40:47.419[main]utilities.LoggerLoad1)-[@Tree, @Tree_S25] : The user validating "Practice Questions" page
+[INFO ]2024-02-1613:40:47.419[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1613:40:47.566[main]utilities.LoggerLoad1)-The user is on the Tree page after logged in
+[INFO ]2024-02-1613:40:47.589[main]utilities.LoggerLoad1)-click Overview of Trees On the Trees page
+[INFO ]2024-02-1613:40:47.775[main]utilities.LoggerLoad1)- Title of the pageOverview of Trees
+[INFO ]2024-02-1613:40:47.776[main]utilities.LoggerLoad1)-User clicked on the overview of Trees link
+[INFO ]2024-02-1613:40:47.796[main]utilities.LoggerLoad1)-click Practice Questions On the tree page
+[INFO ]2024-02-1613:40:47.998[main]utilities.LoggerLoad1)- Title of the page Practice Questions
+[INFO ]2024-02-1613:40:47.998[main]utilities.LoggerLoad1)-User clicked on the Practice Questions Link 
+[INFO ]2024-02-1613:40:48.007[main]utilities.LoggerLoad1)-Title of current page is :Practice Questions
+[INFO ]2024-02-1613:40:48.007[main]utilities.LoggerLoad1)-No questions found on the practice page
+[INFO ]2024-02-1613:40:48.012[main]utilities.LoggerLoad1)-Closing Driver
