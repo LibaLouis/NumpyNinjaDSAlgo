@@ -7,7 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 
 
 import utilities.AppUtils;
-import utilities.configReader;
+import utilities.ConfigReader;
 import hooks.DriverManager;
 
 public class LinkedListPage {
@@ -35,7 +35,7 @@ public class LinkedListPage {
 		}
 		
 		public void navigateTo(String page_name) {
-			String page=configReader.getUrl(page_name);
+			String page=ConfigReader.getUrl(page_name);
 			driver.get(page);
 			
 		}

@@ -25,7 +25,7 @@ public class ArraySteps {
 	HomePage home = new HomePage();
 
 	GenericPage commonActions = new GenericPage();
-	AppUtils eleUtil = new AppUtils();
+	AppUtils appUtil = new AppUtils();
 	String expectedMsg;
 	
 	@When("The user clicks on the Get Started button below Array")
