@@ -1473,3 +1473,103 @@
 [INFO ]2024-02-1617:20:08.465[main]utilities.LoggerLoad1)-User clicks on register link
 [INFO ]2024-02-1617:20:08.486[main]utilities.LoggerLoad1)-User is in Registration page
 [INFO ]2024-02-1617:20:08.497[main]utilities.LoggerLoad1)-Closing Driver
+[INFO ]2024-02-1617:31:02.222[main]utilities.LoggerLoad1)-Loading Config file
+[INFO ]2024-02-1617:31:03.830[main]utilities.LoggerLoad1)-Testing on chrome
+[INFO ]2024-02-1617:31:03.970[main]utilities.LoggerLoad1)-Initializing driver for : chrome
+[INFO ]2024-02-1617:31:04.188[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1617:31:04.188[main]utilities.LoggerLoad1)-[@home, @home1] : User launch home page of an dsalgo project
+[INFO ]2024-02-1617:31:04.189[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1617:31:04.806[main]utilities.LoggerLoad1)-User opens DS Algo portal link
+[INFO ]2024-02-1617:31:05.124[main]utilities.LoggerLoad1)-User clicks on Get Started button
+[INFO ]2024-02-1617:31:05.139[main]utilities.LoggerLoad1)-User is redirected to homepage
+[INFO ]2024-02-1617:31:05.222[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1617:31:05.222[main]utilities.LoggerLoad1)-[@home, @home2] : User is on Home page and click getstarted link "Datastructures" on home page without sign in
+[INFO ]2024-02-1617:31:05.222[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1617:31:05.341[main]utilities.LoggerLoad1)-User is in home page
+[INFO ]2024-02-1617:31:05.757[main]utilities.LoggerLoad1)-User clicks on Get Started link on homepage without login
+[INFO ]2024-02-1617:31:05.844[main]utilities.LoggerLoad1)-User get warning message as You are not logged in
+[INFO ]2024-02-1617:31:05.862[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1617:31:05.862[main]utilities.LoggerLoad1)-[@home, @home2] : User is on Home page and click getstarted link "Arrays" on home page without sign in
+[INFO ]2024-02-1617:31:05.862[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1617:31:05.989[main]utilities.LoggerLoad1)-User is in home page
+[INFO ]2024-02-1617:31:06.501[main]utilities.LoggerLoad1)-User clicks on Get Started link on homepage without login
+[INFO ]2024-02-1617:31:06.582[main]utilities.LoggerLoad1)-User get warning message as You are not logged in
+[INFO ]2024-02-1617:31:06.595[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1617:31:06.595[main]utilities.LoggerLoad1)-[@home, @home2] : User is on Home page and click getstarted link "Linkedlist" on home page without sign in
+[INFO ]2024-02-1617:31:06.595[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1617:31:06.730[main]utilities.LoggerLoad1)-User is in home page
+[INFO ]2024-02-1617:31:07.080[main]utilities.LoggerLoad1)-User clicks on Get Started link on homepage without login
+[INFO ]2024-02-1617:31:07.118[main]utilities.LoggerLoad1)-User get warning message as You are not logged in
+[INFO ]2024-02-1617:31:07.139[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1617:31:07.139[main]utilities.LoggerLoad1)-[@home, @home2] : User is on Home page and click getstarted link "Stack" on home page without sign in
+[INFO ]2024-02-1617:31:07.139[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1617:31:07.277[main]utilities.LoggerLoad1)-User is in home page
+[INFO ]2024-02-1617:31:07.682[main]utilities.LoggerLoad1)-User clicks on Get Started link on homepage without login
+[INFO ]2024-02-1617:31:07.744[main]utilities.LoggerLoad1)-User get warning message as You are not logged in
+[INFO ]2024-02-1617:31:07.762[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1617:31:07.762[main]utilities.LoggerLoad1)-[@home, @home2] : User is on Home page and click getstarted link "Queue" on home page without sign in
+[INFO ]2024-02-1617:31:07.762[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1617:31:07.889[main]utilities.LoggerLoad1)-User is in home page
+[INFO ]2024-02-1617:31:08.267[main]utilities.LoggerLoad1)-User clicks on Get Started link on homepage without login
+[INFO ]2024-02-1617:31:08.329[main]utilities.LoggerLoad1)-User get warning message as You are not logged in
+[INFO ]2024-02-1617:31:08.358[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1617:31:08.359[main]utilities.LoggerLoad1)-[@home, @home2] : User is on Home page and click getstarted link "Tree" on home page without sign in
+[INFO ]2024-02-1617:31:08.359[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1617:31:08.502[main]utilities.LoggerLoad1)-User is in home page
+[INFO ]2024-02-1617:31:08.923[main]utilities.LoggerLoad1)-User clicks on Get Started link on homepage without login
+[INFO ]2024-02-1617:31:08.970[main]utilities.LoggerLoad1)-User get warning message as You are not logged in
+[INFO ]2024-02-1617:31:08.981[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1617:31:08.981[main]utilities.LoggerLoad1)-[@home, @home2] : User is on Home page and click getstarted link "Graph" on home page without sign in
+[INFO ]2024-02-1617:31:08.981[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1617:31:09.098[main]utilities.LoggerLoad1)-User is in home page
+[INFO ]2024-02-1617:31:09.494[main]utilities.LoggerLoad1)-User clicks on Get Started link on homepage without login
+[INFO ]2024-02-1617:31:09.571[main]utilities.LoggerLoad1)-User get warning message as You are not logged in
+[INFO ]2024-02-1617:31:09.581[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1617:31:09.581[main]utilities.LoggerLoad1)-[@home, @home3] : User is on Home page and click on dropdown "Arrays" without sign in
+[INFO ]2024-02-1617:31:09.581[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1617:31:09.695[main]utilities.LoggerLoad1)-User is in home page
+[INFO ]2024-02-1617:31:10.015[main]utilities.LoggerLoad1)-User clicks on dropdown
+[INFO ]2024-02-1617:31:10.080[main]utilities.LoggerLoad1)-User get warning message as You are not logged in
+[INFO ]2024-02-1617:31:10.095[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1617:31:10.095[main]utilities.LoggerLoad1)-[@home, @home3] : User is on Home page and click on dropdown "Linkedlist" without sign in
+[INFO ]2024-02-1617:31:10.096[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1617:31:10.215[main]utilities.LoggerLoad1)-User is in home page
+[INFO ]2024-02-1617:31:10.521[main]utilities.LoggerLoad1)-User clicks on dropdown
+[INFO ]2024-02-1617:31:10.559[main]utilities.LoggerLoad1)-User get warning message as You are not logged in
+[INFO ]2024-02-1617:31:10.570[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1617:31:10.570[main]utilities.LoggerLoad1)-[@home, @home3] : User is on Home page and click on dropdown "Stack" without sign in
+[INFO ]2024-02-1617:31:10.571[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1617:31:10.716[main]utilities.LoggerLoad1)-User is in home page
+[INFO ]2024-02-1617:31:11.078[main]utilities.LoggerLoad1)-User clicks on dropdown
+[INFO ]2024-02-1617:31:11.144[main]utilities.LoggerLoad1)-User get warning message as You are not logged in
+[INFO ]2024-02-1617:31:11.156[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1617:31:11.156[main]utilities.LoggerLoad1)-[@home, @home3] : User is on Home page and click on dropdown "Queue" without sign in
+[INFO ]2024-02-1617:31:11.157[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1617:31:11.325[main]utilities.LoggerLoad1)-User is in home page
+[INFO ]2024-02-1617:31:11.740[main]utilities.LoggerLoad1)-User clicks on dropdown
+[INFO ]2024-02-1617:31:11.818[main]utilities.LoggerLoad1)-User get warning message as You are not logged in
+[INFO ]2024-02-1617:31:11.835[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1617:31:11.835[main]utilities.LoggerLoad1)-[@home, @home3] : User is on Home page and click on dropdown "Tree" without sign in
+[INFO ]2024-02-1617:31:11.836[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1617:31:11.969[main]utilities.LoggerLoad1)-User is in home page
+[INFO ]2024-02-1617:31:12.298[main]utilities.LoggerLoad1)-User clicks on dropdown
+[INFO ]2024-02-1617:31:12.384[main]utilities.LoggerLoad1)-User get warning message as You are not logged in
+[INFO ]2024-02-1617:31:12.400[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1617:31:12.400[main]utilities.LoggerLoad1)-[@home, @home3] : User is on Home page and click on dropdown "Graph" without sign in
+[INFO ]2024-02-1617:31:12.400[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1617:31:12.569[main]utilities.LoggerLoad1)-User is in home page
+[INFO ]2024-02-1617:31:12.896[main]utilities.LoggerLoad1)-User clicks on dropdown
+[INFO ]2024-02-1617:31:12.974[main]utilities.LoggerLoad1)-User get warning message as You are not logged in
+[INFO ]2024-02-1617:31:12.986[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1617:31:12.986[main]utilities.LoggerLoad1)-[@home, @home4] : User is on Home page and click on sign in
+[INFO ]2024-02-1617:31:12.986[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1617:31:13.153[main]utilities.LoggerLoad1)-User is in home page
+[INFO ]2024-02-1617:31:13.432[main]utilities.LoggerLoad1)-User clicks on signin link
+[INFO ]2024-02-1617:31:13.446[main]utilities.LoggerLoad1)-User is in login page
+[INFO ]2024-02-1617:31:13.463[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-02-1617:31:13.464[main]utilities.LoggerLoad1)-[@home, @home5] : User is on Home page and click on Register
+[INFO ]2024-02-1617:31:13.464[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-02-1617:31:13.685[main]utilities.LoggerLoad1)-User is in home page
+[INFO ]2024-02-1617:31:13.985[main]utilities.LoggerLoad1)-User clicks on register link
+[INFO ]2024-02-1617:31:14.003[main]utilities.LoggerLoad1)-User is in Registration page
+[INFO ]2024-02-1617:31:14.015[main]utilities.LoggerLoad1)-Closing Driver

@@ -40,8 +40,8 @@ public class HomePage {
 	
 	//Webelement for register
 	@FindBy (xpath="//a[@href='/register']")WebElement register;
-	@FindBy (xpath="//a[@href='/login']")WebElement login;
-	
+	//@FindBy (xpath="//a[@href='/login']")WebElement login;
+	@FindBy (xpath="//a[contains(text(),'Sign in')]") WebElement login;
 	
 	
 	public HomePage() {
