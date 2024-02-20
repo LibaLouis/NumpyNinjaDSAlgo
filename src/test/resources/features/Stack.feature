@@ -1,5 +1,5 @@
 @Stack
-Feature: Stack feature
+Feature: Stack: Luanch the DS-Algo portal and test Stack module
   
  	@Stack_S1
   Scenario: The user is logged in to DS Algo portal
