@@ -5,6 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import utilities.AppUtils;
 import utilities.ConfigReader;
 import hooks.DriverManager;
 
@@ -13,7 +14,7 @@ public class HomePage {
 	public static WebDriver driver=DriverManager.getdriver();
 	String URL=ConfigReader.getApplicationUrl();
 	String home=ConfigReader.getHomePageUrl();
-	
+	AppUtils appUtils = new AppUtils();
 	
 	//webelements for modules
 	@FindBy(xpath = "//button[text()='Get Started']") WebElement getStarted;
@@ -103,6 +104,7 @@ public class HomePage {
 		}
 	
 	public String alertmsg() {
+		appUtils.waitForElement(alertmsg);
 		String msg=alertmsg.getText();
 		return msg;
 	}
