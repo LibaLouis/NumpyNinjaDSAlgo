@@ -1,5 +1,5 @@
 package runner;
- 
+
 import org.junit.runner.RunWith;
  
 import io.cucumber.junit.Cucumber;
@@ -14,6 +14,7 @@ plugin={"pretty",
 		"html:test-output/cucumber-reports/dsalgo.html","json:target/jsonReports/report.json",
 		"html:test-output/jsonReports/report2.json","junit:target/jsonReports/report1.json",
 		"timeline:test-output-thread/"}
+//,
 //tags= ""
 		)
 
