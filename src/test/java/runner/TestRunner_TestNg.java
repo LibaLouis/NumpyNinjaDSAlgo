@@ -18,9 +18,9 @@ plugin={"pretty",
 		)
 
 public class TestRunner_TestNg extends AbstractTestNGCucumberTests{
-	//@Override
+	@Override
 	@DataProvider(parallel=true)
-	public Object[][]scenario() {
+	public Object[][]scenarios() {
 		return super.scenarios();
 	}
 }
