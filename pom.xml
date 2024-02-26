@@ -27,13 +27,16 @@
 				<artifactId>maven-surefire-plugin</artifactId>
 				<version>${maven.surefire.version}</version>
 				<configuration>
-							<includes>
+							<!--<includes>-->
 								<!--<include>TestRunner.java</include>-->
-								<include>**/testng.xml</include>
-							</includes>
+								<!--<include>src/test/resources/testng.xml</include>-->
+							<!--</includes>
 							<parallel>methods</parallel>
                             <threadCount>10</threadCount>
-                            <useUnlimitedThreads>false</useUnlimitedThreads> 
+                            <useUnlimitedThreads>false</useUnlimitedThreads> -->
+                            <suiteXmlFiles>
+						<suiteXmlFile>testng.xml</suiteXmlFile>
+					</suiteXmlFiles>
 				</configuration>
 				
 			</plugin>
