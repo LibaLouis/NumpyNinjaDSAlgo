@@ -30,6 +30,10 @@ public class ConfigReader {
 	
 	}
 	
+	public static void setBrowserType(String browserType) {
+		prop.setProperty("browser", browserType);
+	}
+	
 	public static String getBrowser() {
 		String browser = prop.getProperty("browser");
 		if (browser != null)
