@@ -27,18 +27,12 @@
 				<artifactId>maven-surefire-plugin</artifactId>
 				<version>${maven.surefire.version}</version>
 				<configuration>
-				<properties>
-        			<property>
-            			<name>dataproviderthreadcount</name>
-            			<value>20</value>
-        			</property>
-    				</properties>
 							<includes>
-								<include>TestRunner.java</include>
-								<include>TestRunner_TestNg.java</include>
+								<!--<include>TestRunner.java</include>-->
+								<include>**/TestRunner.java</include>
 							</includes>
 							<parallel>classes</parallel>
-                            <threadCount>4</threadCount>
+                            <threadCount>10</threadCount>
                             <!--<useUnlimitedThreads>false</useUnlimitedThreads> -->
 				</configuration>
 			</plugin>
