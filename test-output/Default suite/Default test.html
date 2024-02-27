@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>11/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>160/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Feb 15 14:13:54 PST 2024</td>
+<td>Started on:</td><td>Mon Feb 26 23:52:01 PST 2024</td>
 </tr>
-<tr><td>Total time:</td><td>11 seconds (11171 ms)</td>
+<tr><td>Total time:</td><td>106 seconds (106727 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,173 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='runner.TestRunner_TestNg.tearDownClass()'><b>tearDownClass</b><br>Test class: runner.TestRunner_TestNg</td>
+<td><div><pre>java.lang.RuntimeException: java.net.UnknownHostException: messages.cucumber.io
+	at io.cucumber.core.plugin.MessageFormatter.writeMessage(MessageFormatter.java:32)
+	at io.cucumber.core.eventbus.AbstractEventPublisher.send(AbstractEventPublisher.java:51)
+	at io.cucumber.core.eventbus.AbstractEventBus.send(AbstractEventBus.java:12)
+	at io.cucumber.core.runtime.SynchronizedEventBus.send(SynchronizedEventBus.java:47)
+	at io.cucumber.core.runtime.CucumberExecutionContext.emitTestRunFinished(CucumberExecutionContext.java:125)
+	at io.cucumber.core.runtime.CucumberExecutionContext.finishTestRun(CucumberExecutionContext.java:105)
+	at io.cucumber.testng.TestNGCucumberRunner.finish(TestNGCucumberRunner.java:145)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.tearDownClass(AbstractTestNGCucumberTests.java:57)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+	at org.testng.internal.invokers.TestMethodWorker.invokeAfterClassConfigurations(TestMethodWorker.java:229)
+	at org.testng.internal.invokers.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:215)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:131)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.net.UnknownHostException: messages.cucumber.io
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:2055)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:2050)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:571)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getChainedException(HttpURLConnection.java:2049)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1619)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1599)
+	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:531)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:307)
+	at io.cucumber.core.plugin.UrlOutputStream.getResponseBody(UrlOutputStream.java:125)
+	at io.cucumber.core.plugin.UrlOutputStream.sendRequest(UrlOutputStream.java:87)
+	at io.cucumber.core.plugin.UrlOutputStream.close(UrlOutputStream.java:65)
+	at java.base/sun.nio.cs.StreamEncoder.implClose(StreamEncoder.java:439)
+	at java.base/sun.nio.cs.StreamEncoder.lockedClose(StreamEncoder.java:237)
+	at java.base/sun.nio.cs.StreamEncoder.close(StreamEncoder.java:228)
+	at java.base/java.io.OutputStreamWriter.close(OutputStreamWriter.java:266)
+	at io.cucumber.core.plugin.MessageFormatter.writeMessage(MessageFormatter.java:29)
+	... 32 more
+Caused by: java.net.UnknownHostException: messages.cucumber.io
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:567)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:751)
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:304)
+	at java.base/sun.security.ssl.BaseSSLSocketImpl.connect(BaseSSLSocketImpl.java:181)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:183)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:531)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:636)
+	at java.base/sun.net.www.protocol.https.HttpsClient.&lt;init&gt;(HttpsClient.java:264)
+	at java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:377)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:193)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1282)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1123)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:179)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1675)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1599)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getHeaderFields(HttpURLConnection.java:3258)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getHeaderFields(HttpsURLConnectionImpl.java:252)
+	at io.cucumber.core.plugin.UrlOutputStream.getResponseBody(UrlOutputStream.java:124)
+	... 39 more
+</pre></div><a href='#' onClick='toggleBox("stack-trace180687412", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace180687412'><pre>java.lang.RuntimeException: java.net.UnknownHostException: messages.cucumber.io
+	at io.cucumber.core.plugin.MessageFormatter.writeMessage(MessageFormatter.java:32)
+	at io.cucumber.core.eventbus.AbstractEventPublisher.send(AbstractEventPublisher.java:51)
+	at io.cucumber.core.eventbus.AbstractEventBus.send(AbstractEventBus.java:12)
+	at io.cucumber.core.runtime.SynchronizedEventBus.send(SynchronizedEventBus.java:47)
+	at io.cucumber.core.runtime.CucumberExecutionContext.emitTestRunFinished(CucumberExecutionContext.java:125)
+	at io.cucumber.core.runtime.CucumberExecutionContext.finishTestRun(CucumberExecutionContext.java:105)
+	at io.cucumber.testng.TestNGCucumberRunner.finish(TestNGCucumberRunner.java:145)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.tearDownClass(AbstractTestNGCucumberTests.java:57)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+	at org.testng.internal.invokers.TestMethodWorker.invokeAfterClassConfigurations(TestMethodWorker.java:229)
+	at org.testng.internal.invokers.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:215)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:131)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.net.UnknownHostException: messages.cucumber.io
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:2055)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:2050)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:571)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getChainedException(HttpURLConnection.java:2049)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1619)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1599)
+	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:531)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:307)
+	at io.cucumber.core.plugin.UrlOutputStream.getResponseBody(UrlOutputStream.java:125)
+	at io.cucumber.core.plugin.UrlOutputStream.sendRequest(UrlOutputStream.java:87)
+	at io.cucumber.core.plugin.UrlOutputStream.close(UrlOutputStream.java:65)
+	at java.base/sun.nio.cs.StreamEncoder.implClose(StreamEncoder.java:439)
+	at java.base/sun.nio.cs.StreamEncoder.lockedClose(StreamEncoder.java:237)
+	at java.base/sun.nio.cs.StreamEncoder.close(StreamEncoder.java:228)
+	at java.base/java.io.OutputStreamWriter.close(OutputStreamWriter.java:266)
+	at io.cucumber.core.plugin.MessageFormatter.writeMessage(MessageFormatter.java:29)
+	... 32 more
+Caused by: java.net.UnknownHostException: messages.cucumber.io
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:567)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:751)
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:304)
+	at java.base/sun.security.ssl.BaseSSLSocketImpl.connect(BaseSSLSocketImpl.java:181)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:183)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:531)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:636)
+	at java.base/sun.net.www.protocol.https.HttpsClient.&lt;init&gt;(HttpsClient.java:264)
+	at java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:377)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:193)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1282)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1123)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:179)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1675)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1599)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getHeaderFields(HttpURLConnection.java:3258)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getHeaderFields(HttpsURLConnectionImpl.java:252)
+	at io.cucumber.core.plugin.UrlOutputStream.getResponseBody(UrlOutputStream.java:124)
+	... 39 more
+</pre></div></td>
+<td>3</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-failed'>
 <tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -85,9 +252,9 @@ function toggleAllBoxes() {
 	at org.testng.Assert.assertEquals(Assert.java:656)
 	at org.testng.Assert.assertEquals(Assert.java:666)
 	at stepdefinition.RegisterPageSteps.it_should_display_error_message_as(RegisterPageSteps.java:182)
-	at ✽.It should display error message as &quot;Username already exists&quot;(file:///C:/Users/balbi/git/NumpyNinjaDSAlgo/src/test/resources/features/Register.feature:94)
-</pre></div><a href='#' onClick='toggleBox("stack-trace2147267122", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace2147267122'><pre>java.lang.AssertionError: expected [Username already exists] but found [password_mismatch:The two password fields didn’t match.]
+	at ✽.It should display error message as &quot;Username already exists&quot;(file:///C:/Users/balbi/git/NumpyNinjaDSAlgo/src/test/resources/features/2Register.feature:94)
+</pre></div><a href='#' onClick='toggleBox("stack-trace266225787", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace266225787'><pre>java.lang.AssertionError: expected [Username already exists] but found [password_mismatch:The two password fields didn’t match.]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1578)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
@@ -95,10 +262,10 @@ function toggleAllBoxes() {
 	at org.testng.Assert.assertEquals(Assert.java:656)
 	at org.testng.Assert.assertEquals(Assert.java:666)
 	at stepdefinition.RegisterPageSteps.it_should_display_error_message_as(RegisterPageSteps.java:182)
-	at ✽.It should display error message as &quot;Username already exists&quot;(file:///C:/Users/balbi/git/NumpyNinjaDSAlgo/src/test/resources/features/Register.feature:94)
+	at ✽.It should display error message as &quot;Username already exists&quot;(file:///C:/Users/balbi/git/NumpyNinjaDSAlgo/src/test/resources/features/2Register.feature:94)
 </pre></div></td>
 <td>0</td>
-<td>runner.TestRunner_TestNg@ba54932</td></tr>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -109,60 +276,805 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user gets error message for password with only numbers", "Validating Register page"</td>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Navigating DataStructures-Introduction page", "DataStructures-Introduction feature"</td>
 <td></td>
-<td>0</td>
-<td>runner.TestRunner_TestNg@ba54932</td></tr>
+<td>1</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
 <tr>
-<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user gets error message for empty fields into Username textbox", "Validating Register page"</td>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is on Home page and click getstarted link "Graph" on home page without sign in", "User launch dsalgo application and test Home page"</td>
 <td></td>
 <td>0</td>
-<td>runner.TestRunner_TestNg@ba54932</td></tr>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
 <tr>
-<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user gets error message for password with characters less than eight", "Validating Register page"</td>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is able to run code in Editor for Graph page", "Graph: Launch the DS-Algo portal and test Graph module"</td>
 <td></td>
 <td>0</td>
-<td>runner.TestRunner_TestNg@ba54932</td></tr>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
 <tr>
-<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user gets error message for empty fields into Password textbox", "Validating Register page"</td>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is logged in to DS Algo portal", "Testing LinkedList page"</td>
 <td></td>
 <td>0</td>
-<td>runner.TestRunner_TestNg@ba54932</td></tr>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is able to run code in Editor for linked list page", "Testing LinkedList page"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User navigated to tryEditor page with Run button from Introduction page", "Testing LinkedList page"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is directed to "Stack" Page", "Stack feature"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Navigating to DataStructures-Introduction page", "DataStructures-Introduction feature"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is able to run code in Editor for Array page", "Array feature"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
 <tr>
 <td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user gets error message for empty fields into confirm Password textbox", "Validating Register page"</td>
 <td></td>
 <td>0</td>
-<td>runner.TestRunner_TestNg@ba54932</td></tr>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
 <tr>
-<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user gets error message for invalid username", "Validating Register page"</td>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is logged in to DS Algo portal", "DataStructures-Introduction feature"</td>
 <td></td>
 <td>0</td>
-<td>runner.TestRunner_TestNg@ba54932</td></tr>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
 <tr>
-<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user redirected to Homepage with valid details", "Validating Register page"</td>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is on Home page and click getstarted link "Stack" on home page without sign in", "User launch dsalgo application and test Home page"</td>
 <td></td>
 <td>0</td>
-<td>runner.TestRunner_TestNg@ba54932</td></tr>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
 <tr>
-<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user gets error message for password mismatch", "Validating Register page"</td>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is on Home page and click getstarted link "Arrays" on home page without sign in", "User launch dsalgo application and test Home page"</td>
 <td></td>
 <td>0</td>
-<td>runner.TestRunner_TestNg@ba54932</td></tr>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
 <tr>
-<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User launch home page of an dsalgo project", "Validating Register page"</td>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is able to submit code in tryEditor for Find Numbers with Even Number of Digits", "Array feature"</td>
 <td></td>
 <td>1</td>
-<td>runner.TestRunner_TestNg@ba54932</td></tr>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
 <tr>
-<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user gets error message for commonly used password", "Validating Register page"</td>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is able to run code in Editor for tree page", "User tests the Tree page on the Ds algo application"</td>
 <td></td>
 <td>0</td>
-<td>runner.TestRunner_TestNg@ba54932</td></tr>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is able to submit code in tryEditor for Squares of a Sorted Array", "Array feature"</td>
+<td></td>
+<td>1</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is presented with error message for code with invalid syntax in tryEditor for Squares of a Sorted Array", "Array feature"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is able to run code in Editor for linked list page", "Testing LinkedList page"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is logged in to DS Algo portal", "Stack feature"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is able to run code in Editor", "DataStructures-Introduction feature"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is able to submit code in tryEditor for Search the array link", "Array feature"</td>
+<td></td>
+<td>1</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
 <tr>
 <td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user gets error message for password too similar to your other personal information", "Validating Register page"</td>
 <td></td>
 <td>0</td>
-<td>runner.TestRunner_TestNg@ba54932</td></tr>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is able to navigate to Terminologies page having an tryEditor", "User tests the Tree page on the Ds algo application"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user validating "Practice Questions" page", "User tests the Tree page on the Ds algo application"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is navigating to Applications page having an tryEditor to run valid code", "Stack feature"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is able to run code in tryEditor for Find Numbers with Even Number of Digits", "Array feature"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is presented with error message for invalid code in Editor for Graph page", "Stack feature"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is able to navigate to graph url and click on Practice Questions", "Graph: Launch the DS-Algo portal and test Graph module"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is able to run code in Editor for Array page", "Array feature"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is able to navigate to binary tree traversals Page", "User tests the Tree page on the Ds algo application"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user gets error message for empty fields into Password textbox", "Validating Register page"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is presented with error message for invalid code in Editor for Array page", "Array feature"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user should be redirected to tryeditor page with run button to test python code", "Graph: Launch the DS-Algo portal and test Graph module"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user navigated to "Insertion" page", "Testing LinkedList page"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is presented with error message for invalid code in Editor for tree page", "User tests the Tree page on the Ds algo application"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is on Home page and click on sign in", "User launch dsalgo application and test Home page"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is presented with error message for invalid code in Editor for linked list page", "Testing LinkedList page"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is navigating to Implementation using collections.deque page to enter valid code in editor", "Queue feature"</td>
+<td></td>
+<td>1</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is presented with error message for code with invalid syntax in tryEditor for Find Numbers with Even Number of Digits", "Array feature"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is able to navigate to "Types of Trees" Page", "User tests the Tree page on the Ds algo application"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is presented with error message for invalid code in Editor for Array page", "Array feature"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is able to run code in Editor for tree page", "User tests the Tree page on the Ds algo application"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is able to navigate to "Types of Binary trees" Page", "User tests the Tree page on the Ds algo application"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is presented with error message for invalid code in Editor", "DataStructures-Introduction feature"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is presented with error message for invalid code in Editor for linked list page", "Testing LinkedList page"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Navigating Arrays in Python page", "Array feature"</td>
+<td></td>
+<td>1</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is able to run code in Editor for Graph Representations page", "Graph: Launch the DS-Algo portal and test Graph module"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is presented with error message for invalid code in Editor for Array page", "Array feature"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is able to navigate to Question page from Max Consecutive Ones", "Array feature"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is presented with error message for code with invalid syntax in tryEditor for Search the array link", "Array feature"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is able to navigate to "Practice Questions" in stack Page", "Stack feature"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is on Home page and click getstarted link "Datastructures" on home page without sign in", "User launch dsalgo application and test Home page"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is presented with error message for invalid code in tryEditor for Max Consecutive Ones", "Array feature"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is presented with error message for invalid code in Editor for linked list page", "Testing LinkedList page"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User navigated to "linked list" page", "Testing LinkedList page"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is on Home page and click on dropdown "Graph" without sign in", "User launch dsalgo application and test Home page"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is on Home page and click on dropdown "Tree" without sign in", "User launch dsalgo application and test Home page"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is on Home page and click on dropdown "Stack" without sign in", "User launch dsalgo application and test Home page"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User navigated to "Introduction" page", "Testing LinkedList page"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is able to run code in Editor for Array page", "Array feature"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is able to navigate to a page having an tryEditor from Types of Trees page", "User tests the Tree page on the Ds algo application"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is presented with error message for invalid code in Editor for Graph page", "Graph: Launch the DS-Algo portal and test Graph module"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User navigated to tryEditor page with Run button from Insertion page", "Testing LinkedList page"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is able to run code in Editor for linked list page", "Testing LinkedList page"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User navigated to tryEditor page with Run button from Types of Linked List", "Testing LinkedList page"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is presented with error message for invalid code in Editor", "Queue feature"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is on Home page and click getstarted link "Queue" on home page without sign in", "User launch dsalgo application and test Home page"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is logged in to DS Algo portal", "User tests the Tree page on the Ds algo application"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is able to navigate to "Applications" in stack Page", "Stack feature"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is able to submit code in tryEditor for Max Consecutive Ones", "Array feature"</td>
+<td></td>
+<td>1</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User login with valid username and valid password", "Validating Login page"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is able to run code in tryEditor for Search the array link", "Array feature"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is on Home page and click getstarted link "Linkedlist" on home page without sign in", "User launch dsalgo application and test Home page"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is able to run code in Editor for linked list page", "Testing LinkedList page"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is presented with error message for invalid code in Editor for Graph page", "Stack feature"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User login with valid username and invalid password", "Validating Login page"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is presented with error message for invalid code in Editor", "Queue feature"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user gets error message for password mismatch", "Validating Register page"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User launch home page of an dsalgo project", "Validating Register page"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User navigated to tryEditor page with Run button from Traversal page", "Testing LinkedList page"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is able to navigate to graph page and click on Graph Representations link", "Graph: Launch the DS-Algo portal and test Graph module"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is on Home page and click on dropdown "Arrays" without sign in", "User launch dsalgo application and test Home page"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User navigated to tryEditor page with Run button from Deletion page", "Testing LinkedList page"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is presented with error message for invalid code in Editor for linked list page", "Testing LinkedList page"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Navigating to Practice Questions page", "Array feature"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user navigated to "Deletion" page", "Testing LinkedList page"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is able to navigate to a page having an tryEditor from Overview of Trees page", "User tests the Tree page on the Ds algo application"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is presented with error message for invalid code in Editor for tree page", "User tests the Tree page on the Ds algo application"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is able to navigate to "Traversals illustration" Page", "User tests the Tree page on the Ds algo application"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is able to click and navigate to Practice Questions", "DataStructures-Introduction feature"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is able to navigate to "Operations in Stack" page", "Stack feature"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Navigating to Queue page", "Queue feature"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is logged in to DS Algo portal", "Array feature"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is navigating to Queue Operations page to enter valid code in editor", "Queue feature"</td>
+<td></td>
+<td>1</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user gets error message for password with only numbers", "Validating Register page"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is able to navigate to "Binary trees" Page", "User tests the Tree page on the Ds algo application"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is presented with error message for invalid code in Editor for linked list page", "Testing LinkedList page"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is on Home page and click getstarted link "Tree" on home page without sign in", "User launch dsalgo application and test Home page"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Navigating Arrays Using List page", "Array feature"</td>
+<td></td>
+<td>1</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Navigating Basic Operations in Lists page", "Array feature"</td>
+<td></td>
+<td>1</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is presented with error message for invalid code in Editor", "Queue feature"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is able to navigate to "Overview of Trees" page", "User tests the Tree page on the Ds algo application"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is able to run code in Editor for tree page", "User tests the Tree page on the Ds algo application"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is able to run code in Editor for linked list page", "Testing LinkedList page"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is navigating to Implementation of Queue in Python page to enter valid code in editor", "Queue feature"</td>
+<td></td>
+<td>1</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is able to navigate to "Implementation" Page", "Stack feature"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is navigating to Implementation page having an tryEditor to run valid code", "Stack feature"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User navigated to tryEditor page with Run button from Creating a Linked List page", "Testing LinkedList page"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is on Home page and click on dropdown "Linkedlist" without sign in", "User launch dsalgo application and test Home page"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is able to navigate to Graph page", "Graph: Launch the DS-Algo portal and test Graph module"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is presented with error message for invalid code in Editor", "Queue feature"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is on Home page and click on Register", "User launch dsalgo application and test Home page"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is able to run code in Editor for Array page", "Array feature"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is able to run code in Editor for linked list page", "Testing LinkedList page"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user redirected to Homepage with valid details", "Validating Register page"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is able to navigate to Implementation of Binary Trees Page", "User tests the Tree page on the Ds algo application"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is presented with error message for invalid code in Editor for tree page", "User tests the Tree page on the Ds algo application"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Sign-Out scenario", "Validating Login page"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is able to navigate to "Implementation of BST" Page", "User tests the Tree page on the Ds algo application"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is able to run code in tryEditor for Squares of a Sorted Array", "Array feature"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user gets error message for commonly used password", "Validating Register page"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user navigated to "Implementation linked list in python" page", "Testing LinkedList page"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user gets error message for invalid username", "Validating Register page"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is able to navigate to home page", "Graph: Launch the DS-Algo portal and test Graph module"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is on Home page and click on dropdown "Queue" without sign in", "User launch dsalgo application and test Home page"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is able to click and navigate to Practice Questions", "Queue feature"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is presented with error message for invalid code in Editor for linked list page", "Testing LinkedList page"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user navigated to "Traversal" page", "Testing LinkedList page"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is navigating to Implementation using array page to enter valid code in editor", "Queue feature"</td>
+<td></td>
+<td>1</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User launch home page of an dsalgo project", "User launch dsalgo application and test Home page"</td>
+<td></td>
+<td>1</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User login with empty username and valid password", "Validating Login page"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is able to run code in Editor for linked list page", "Testing LinkedList page"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user validating "Practice Questions" page", "Testing LinkedList page"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is able to navigate to Implementation in Python Page", "User tests the Tree page on the Ds algo application"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is presented with error message for invalid code in Editor for Array page", "Array feature"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is able to navigate to Question page from Find Numbers with Even Number of Digits", "Array feature"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is able to navigate to Applications of Binary Trees Page", "User tests the Tree page on the Ds algo application"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Navigating to Array page", "Array feature"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is logged in to DS Algo portal", "Queue feature"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Navigating Applications of Array page", "Array feature"</td>
+<td></td>
+<td>1</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is able to navigate to Question page from Search the array link", "Array feature"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user gets error message for empty fields into Username textbox", "Validating Register page"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User navigated to "Types of linked list" page", "Testing LinkedList page"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User navigated to "creating linked list" page", "Testing LinkedList page"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is presented with error message for invalid code in Editor for linked list page", "Testing LinkedList page"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is logged in to DS Algo portal", "Graph: Launch the DS-Algo portal and test Graph module"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user gets error message for password with characters less than eight", "Validating Register page"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is able to navigate to Question page from Squares of a Sorted Array", "Array feature"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User navigated to tryEditor page with Run button from Implement Linked List in Python page", "Testing LinkedList page"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is presented with error message for invalid code in Editor for Graph Representations page", "Graph: Launch the DS-Algo portal and test Graph module"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User login with invalid username and invalid password", "Validating Login page"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user should be redirected to tryeditor page with run button to test python code", "Graph: Launch the DS-Algo portal and test Graph module"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is directed to "Tree" Page", "User tests the Tree page on the Ds algo application"</td>
+<td></td>
+<td>1</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is able to navigate to "Terminologies" Page", "User tests the Tree page on the Ds algo application"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is able to navigate to "Tree Traversals" Page", "User tests the Tree page on the Ds algo application"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is able to run code in tryEditor for Max Consecutive Ones", "Array feature"</td>
+<td></td>
+<td>1</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is navigating to a page having tryEditor from Operations in Stack page to enter valid code", "Stack feature"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is presented with error message for invalid code in Editor", "Stack feature"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User login with valid username and empty password", "Validating Login page"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
+<tr>
+<td title='runner.TestRunner_TestNg.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner_TestNg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is able to navigate to a page having an tryEditor from Binary Search Trees Page", "User tests the Tree page on the Ds algo application"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner_TestNg@574b560f</td></tr>
 </table><p>
 </body>
 </html>
