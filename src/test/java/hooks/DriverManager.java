@@ -1,6 +1,7 @@
 package hooks;
 
 import java.time.Duration;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -11,10 +12,7 @@ import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.safari.SafariDriver;
 import org.openqa.selenium.safari.SafariOptions;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
 import utilities.LoggerLoad;
-import java.util.Scanner;
-import java.util.Timer;
 
 public class DriverManager {
 
